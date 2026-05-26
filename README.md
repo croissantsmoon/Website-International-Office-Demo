@@ -70,6 +70,12 @@ A single-page application (SPA) for the PCU International Office, showcasing inb
 │   └── functions/
 │       └── send-meeting-email/
 │           └── index.ts            # Deno Edge Function — triggered by DB webhook on meeting_requests INSERT; sends email via Resend
+├── backend/
+│   ├── main.py             # Python/Flask REST API — admin auth, articles, OSE, internship, meeting requests, email
+│   ├── requirements.txt    # Python dependencies: flask, flask-cors, python-dotenv, gunicorn
+│   ├── Procfile            # Heroku/Railway process file: `web: gunicorn main:app`
+│   ├── .env                # Local secrets (not committed) — SMTP credentials, admin passwords
+│   └── submissions.db      # SQLite database (auto-created on first run)
 ├── scripts/
 │   └── fix_news.py     # One-time dev utility — see note below (safe to ignore)
 ├── package.json        # npm scripts: build (minify) and dev (watch) for Tailwind CSS
@@ -94,6 +100,8 @@ A single-page application (SPA) for the PCU International Office, showcasing inb
 | [Supabase](https://supabase.com) | PostgreSQL database, Auth (email+password), Row Level Security, Edge Functions |
 | [Resend](https://resend.com) | Transactional email for meeting request notifications |
 | Deno | Runtime for the `send-meeting-email` Supabase Edge Function |
+| Python/Flask *(alternative)* | Self-hosted REST API in `backend/` — mirrors Supabase using SQLite + SMTP |
+| SQLite *(alternative)* | Local database for the Flask backend (`backend/submissions.db`) |
 
 The frontend requires no runtime build step for development — open `index.html` directly. Run `npm run build` to regenerate the compiled Tailwind CSS before deploying. All other JS dependencies are loaded via CDN.
 
@@ -272,6 +280,97 @@ In Supabase Dashboard → Database → Webhooks → Create Webhook:
 - Events: `INSERT`
 - Type: Supabase Edge Functions
 - Function: `send-meeting-email`
+
+---
+
+## Alternative Backend (Python/Flask)
+
+The `backend/` directory contains a self-hosted REST API that mirrors all Supabase functionality using **Python/Flask + SQLite**. Use this if you prefer not to depend on Supabase, or need to run the backend on your own infrastructure.
+
+### API Endpoints
+
+| Method | Path | Auth required | Description |
+|---|---|---|---|
+| `POST` | `/api/admin/login` | — | Login with username + password; returns session token |
+| `POST` | `/api/admin/logout` | Bearer token | Invalidate session |
+| `GET` | `/api/articles` | — | List all articles |
+| `POST` | `/api/articles` | Bearer token | Create article |
+| `PUT` | `/api/articles/<id>` | Bearer token | Update article |
+| `DELETE` | `/api/articles/<id>` | Bearer token | Delete article |
+| `POST` | `/api/articles/<id>/visit` | — | Increment visit counter |
+| `GET` | `/api/ose-programs` | — | List OSE programs |
+| `POST` | `/api/ose-programs` | Bearer token | Create OSE program |
+| `PUT` | `/api/ose-programs/<id>` | Bearer token | Update OSE program |
+| `DELETE` | `/api/ose-programs/<id>` | Bearer token | Delete OSE program |
+| `GET` | `/api/internship-opportunities` | — | List internship listings |
+| `POST` | `/api/internship-opportunities` | Bearer token | Create listing |
+| `PUT` | `/api/internship-opportunities/<id>` | Bearer token | Update listing |
+| `DELETE` | `/api/internship-opportunities/<id>` | Bearer token | Delete listing |
+| `POST` | `/api/submit-meeting-request` | — | Submit meeting request form + send email |
+| `GET` | `/api/submissions` | — | List all meeting request submissions |
+| `GET` | `/api/health` | — | Health check |
+
+### Running Locally
+
+```bash
+cd backend
+python -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+
+# Create .env (copy and fill in values):
+cp .env.example .env   # or create manually — see Environment Variables below
+
+python main.py         # starts on http://localhost:3001
+```
+
+### Environment Variables
+
+Create `backend/.env` with the following variables:
+
+| Variable | Description |
+|---|---|
+| `PASS_INBOUND` | Password for `admin_inbound` account |
+| `PASS_OUTBOUND` | Password for `admin_outbound` account |
+| `PASS_PARTNERSHIP` | Password for `admin_partnership` account |
+| `PASS_HEAD` | Password for `admin_head` account |
+| `SMTP_EMAIL` | Sender email address |
+| `SMTP_PASSWORD` | SMTP password or app password |
+| `SMTP_HOST` | SMTP server hostname (default: `smtp.office365.com`) |
+| `SMTP_PORT` | SMTP port (default: `587`) |
+| `RECIPIENT_EMAIL` | Who receives meeting request notifications (default: `zefanya.kharisma@petra.ac.id`) |
+
+> **Gmail users:** Generate an app password at [myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords) and set `SMTP_HOST=smtp.gmail.com`.
+
+### Admin Accounts
+
+The Flask backend uses username/password (not email) auth. The four accounts are:
+
+| Username | Role | Tag |
+|---|---|---|
+| `admin_inbound` | Inbound | `#inboundstudents` |
+| `admin_outbound` | Outbound | `#outboundstudents` |
+| `admin_partnership` | Partnership | `#partnership` |
+| `admin_head` | Head | unrestricted |
+
+Passwords are set via environment variables (`PASS_INBOUND`, etc.). Sessions are stored in memory — they are lost on server restart.
+
+### Deploying the Flask Backend
+
+The `Procfile` targets Heroku and Railway. Push the `backend/` folder as a separate app:
+
+```bash
+# Railway
+railway init
+railway up
+
+# Heroku
+heroku create my-pcu-backend
+git subtree push --prefix backend heroku main
+```
+
+Set the environment variables in your platform's dashboard before deploying.
+
+> **CORS:** By default, only `https://zefanyakharisma-cell.github.io`, `http://localhost:8080`, and `http://localhost:3001` are allowed. Update the `origins` list in `backend/main.py` if your frontend is hosted elsewhere.
 
 ---
 
