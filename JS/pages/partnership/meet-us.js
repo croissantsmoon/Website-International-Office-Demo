@@ -9,9 +9,9 @@ function renderMeetUs() {
 <div class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
 <div>
 <h1 class="font-display text-4xl md:text-5xl font-bold text-white mb-4">Meet Us</h1>
-<p class="text-white/75 text-lg max-w-3xl">Get to know Petra Christian University's partnership team and learn how we collaborate with international institutions.</p>
+<p class="text-white/75 text-lg max-w-3xl">Get to know Meridian University's partnership team and learn how we collaborate with international institutions.</p>
 </div>
-<a class="inline-flex items-center gap-2 px-6 py-3.5 bg-white text-pcu-purple font-semibold rounded-full shadow-lg hover:bg-white/90 transition" href="mailto:head-partnership@petra.ac.id">Email Partnership Team</a>
+<a class="inline-flex items-center gap-2 px-6 py-3.5 bg-white text-pcu-purple font-semibold rounded-full shadow-lg hover:bg-white/90 transition" href="mailto:partnership@meridian.edu">Email Partnership Team</a>
 </div>
 </div>
 </div>
@@ -19,28 +19,28 @@ function renderMeetUs() {
 <div class="grid gap-6 lg:grid-cols-2 mb-16">
 <div class="rounded-3xl border border-gray-100 bg-pcu-light p-8 shadow-sm">
 <h2 class="font-semibold text-pcu-blue text-2xl mb-4">Partnership Office</h2>
-<p class="text-gray-600 mb-4">The Partnership Office at Petra Christian University supports institutional collaboration, student mobility, academic exchange, and joint research projects with international partners.</p>
-<p class="text-gray-600">If your institution is interested in working with PCU, our team is ready to help you explore opportunities in education, research, and community engagement.</p>
+<p class="text-gray-600 mb-4">The Partnership Office at Meridian University supports institutional collaboration, student mobility, academic exchange, and joint research projects with international partners.</p>
+<p class="text-gray-600">If your institution is interested in working with MU, our team is ready to help you explore opportunities in education, research, and community engagement.</p>
 </div>
 <div class="grid gap-6">
 <div class="rounded-3xl bg-white border border-gray-100 p-8 shadow-sm">
 <h3 class="font-semibold text-pcu-blue text-xl mb-4">Head of Partnership</h3>
 <p class="text-gray-600 mb-3">For strategic partnership inquiries and institutional agreements.</p>
-<p class="text-gray-700 font-medium">head-partnership@petra.ac.id</p>
+<p class="text-gray-700 font-medium">partnership@meridian.edu</p>
 </div>
 <div class="rounded-3xl bg-white border border-gray-100 p-8 shadow-sm">
 <h3 class="font-semibold text-pcu-blue text-xl mb-4">Partnership Staff</h3>
 <p class="text-gray-600 mb-3">For operational support, program coordination, and relationship management.</p>
-<p class="text-gray-700 font-medium">staff-partnership@petra.ac.id</p>
+<p class="text-gray-700 font-medium">staff-partnership@meridian.edu</p>
 </div>
 </div>
 </div>
 <div class="rounded-3xl border border-gray-100 bg-white p-8 shadow-sm mb-16">
-<h2 class="font-display text-3xl text-pcu-blue mb-4">Why Partner with Petra Christian University?</h2>
+<h2 class="font-display text-3xl text-pcu-blue mb-4">Why Partner with Meridian University?</h2>
 <div class="grid gap-6 md:grid-cols-3">
 <div class="rounded-3xl bg-pcu-light p-6">
 <h3 class="font-semibold text-pcu-blue mb-3">Academic Excellence</h3>
-<p class="text-gray-600">PCU delivers internationally-minded education with strong academic and research programs.</p>
+<p class="text-gray-600">MU delivers internationally-minded education with strong academic and research programs.</p>
 </div>
 <div class="rounded-3xl bg-pcu-light p-6">
 <h3 class="font-semibold text-pcu-blue mb-3">Global Network</h3>
@@ -63,7 +63,7 @@ function renderMeetUs() {
 </div>
 <div class="rounded-3xl border border-gray-100 bg-white p-8 shadow-sm">
 <h2 class="font-display text-3xl text-pcu-blue mb-4">Partnership Information</h2>
-<p class="text-gray-600 mb-4">Petra Christian University welcomes collaboration with universities, research institutions, and industry partners. Our mission is to create mutually beneficial programs that advance education, innovation, and global citizenship.</p>
+<p class="text-gray-600 mb-4">Meridian University welcomes collaboration with universities, research institutions, and industry partners. Our mission is to create mutually beneficial programs that advance education, innovation, and global citizenship.</p>
 <p class="text-gray-600">We are committed to building long-term relationships that support academic quality, intercultural learning, and social impact.</p>
 </div>
 </div>

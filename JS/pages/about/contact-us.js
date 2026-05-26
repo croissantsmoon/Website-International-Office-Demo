@@ -23,10 +23,10 @@ function renderContactUs() {
                             </div>
                             <div class="flex-1 min-w-0">
                                 <p class="text-xs font-semibold text-pcu-gold uppercase tracking-wider mb-1">Director of International Office</p>
-                                <h3 class="font-semibold text-pcu-blue text-lg leading-tight">Dr. Leenawaty Limantara, Ph.D.</h3>
+                                <h3 class="font-semibold text-pcu-blue text-lg leading-tight">Dr. Margaret Foster, Ph.D.</h3>
                             </div>
                             <a class="inline-flex items-center gap-2 px-5 py-2.5 bg-pcu-blue text-white text-sm font-semibold rounded-full hover:bg-pcu-sky transition whitespace-nowrap shrink-0"
-                               href="mailto:io-director@petra.ac.id">
+                               href="mailto:director@meridian.edu">
                                 <i class="w-4 h-4" data-lucide="mail"></i> Email Me
                             </a>
                         </div>
@@ -38,10 +38,10 @@ function renderContactUs() {
                             </div>
                             <div class="flex-1 min-w-0">
                                 <p class="text-xs font-semibold text-pcu-sky uppercase tracking-wider mb-1">Head of International Mobility &amp; Engagement</p>
-                                <h3 class="font-semibold text-pcu-blue text-lg leading-tight">Ms. Reny Novemsy Dese</h3>
+                                <h3 class="font-semibold text-pcu-blue text-lg leading-tight">Ms. Amanda Brooks</h3>
                             </div>
                             <a class="inline-flex items-center gap-2 px-5 py-2.5 bg-pcu-blue text-white text-sm font-semibold rounded-full hover:bg-pcu-sky transition whitespace-nowrap shrink-0"
-                               href="mailto:head-intprograms@petra.ac.id">
+                               href="mailto:intprograms@meridian.edu">
                                 <i class="w-4 h-4" data-lucide="mail"></i> Email Me
                             </a>
                         </div>
@@ -53,10 +53,10 @@ function renderContactUs() {
                             </div>
                             <div class="flex-1 min-w-0">
                                 <p class="text-xs font-semibold text-teal-600 uppercase tracking-wider mb-1">Staff for Inbound Programs</p>
-                                <h3 class="font-semibold text-pcu-blue text-lg leading-tight">Ms. Sylvie Chandra</h3>
+                                <h3 class="font-semibold text-pcu-blue text-lg leading-tight">Ms. Clara Bennett</h3>
                             </div>
                             <a class="inline-flex items-center gap-2 px-5 py-2.5 bg-pcu-blue text-white text-sm font-semibold rounded-full hover:bg-pcu-sky transition whitespace-nowrap shrink-0"
-                               href="mailto:head-mobility@petra.ac.id">
+                               href="mailto:inbound@meridian.edu">
                                 <i class="w-4 h-4" data-lucide="mail"></i> Email Me
                             </a>
                         </div>
@@ -68,10 +68,10 @@ function renderContactUs() {
                             </div>
                             <div class="flex-1 min-w-0">
                                 <p class="text-xs font-semibold text-indigo-600 uppercase tracking-wider mb-1">Staff for Outbound Programs</p>
-                                <h3 class="font-semibold text-pcu-blue text-lg leading-tight">Ms. Asti Kusumaningtyas</h3>
+                                <h3 class="font-semibold text-pcu-blue text-lg leading-tight">Ms. Diana Park</h3>
                             </div>
                             <a class="inline-flex items-center gap-2 px-5 py-2.5 bg-pcu-blue text-white text-sm font-semibold rounded-full hover:bg-pcu-sky transition whitespace-nowrap shrink-0"
-                               href="mailto:staff-outbound@petra.ac.id">
+                               href="mailto:outbound@meridian.edu">
                                 <i class="w-4 h-4" data-lucide="mail"></i> Email Me
                             </a>
                         </div>
@@ -85,12 +85,12 @@ function renderContactUs() {
                                 <div class="flex-1 min-w-0">
                                     <p class="text-xs font-semibold text-amber-600 uppercase tracking-wider mb-3">Staff for Partnership</p>
                                     <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-3">
-                                        <h3 class="font-semibold text-pcu-blue text-lg leading-tight">Ms. Kezia Gloria Setiawati</h3>
+                                        <h3 class="font-semibold text-pcu-blue text-lg leading-tight">Ms. Laura Thompson</h3>
                                     </div>
                                     <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-                                        <h3 class="font-semibold text-pcu-blue text-lg leading-tight">Mr. Zefanya Kharisma Nugroho</h3>
+                                        <h3 class="font-semibold text-pcu-blue text-lg leading-tight">Mr. David Rivera</h3>
                                         <a class="inline-flex items-center gap-2 px-5 py-2.5 bg-pcu-blue text-white text-sm font-semibold rounded-full hover:bg-pcu-sky transition whitespace-nowrap shrink-0"
-                                           href="mailto:staff-partnership@petra.ac.id">
+                                           href="mailto:partnership@meridian.edu">
                                             <i class="w-4 h-4" data-lucide="mail"></i> Email Us
                                         </a>
                                     </div>
@@ -104,7 +104,7 @@ function renderContactUs() {
                     <div class="mt-10 text-center reveal">
                         <p class="text-gray-400 text-sm">
                             You can also reach our general office at
-                            <a class="text-pcu-sky font-medium hover:underline" href="mailto:io@petra.ac.id">io@petra.ac.id</a>
+                            <a class="text-pcu-sky font-medium hover:underline" href="mailto:io@meridian.edu">io@meridian.edu</a>
                         </p>
                     </div>
 

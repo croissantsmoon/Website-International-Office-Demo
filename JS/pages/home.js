@@ -10,18 +10,18 @@ function renderHomePage() {
 
                         <!-- Slide 1 -->
                         <div class="hero-slide active" style="background: linear-gradient(135deg, #0A2F6E 0%, #1E6FD9 60%, #3B82F6 100%);">
-                            <div class="slide-bg" style="background-image:url('Assets/Images/Gedung Petra/Other/KJ &amp; Torso/IMG_6863.JPG');"></div>
+                            <div class="slide-bg" style="background-image:url('https://picsum.photos/seed/mu-campus-hero/1400/600');"></div>
                             <div class="absolute inset-0 flex items-center">
                                 <div class="max-w-7xl mx-auto px-6 lg:px-8 w-full">
                                     <div class="max-w-2xl">
                                         <span class="inline-block px-4 py-1.5 bg-white/15 backdrop-blur text-white text-xs font-semibold rounded-full mb-6 tracking-wide uppercase">
-                                            Petra Christian University
+                                            Meridian University
                                         </span>
                                         <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-5" id="heroTitle">
                                             Your Gateway to<br/>Global Education
                                         </h1>
                                         <p class="text-white/80 text-lg md:text-xl mb-8 leading-relaxed max-w-lg" id="heroSubtitle">
-                                            Discover world-class programs, vibrant campus life, and international opportunities at PCU.
+                                            Discover world-class programs, vibrant campus life, and international opportunities at MU.
                                         </p>
                                         <div class="flex flex-wrap gap-4">
                                             <a class="inline-flex items-center gap-2 px-7 py-3.5 bg-white text-pcu-blue font-semibold rounded-full hover:bg-pcu-gold hover:text-white transition shadow-xl"
@@ -44,7 +44,7 @@ function renderHomePage() {
 
                         <!-- Slide 2 -->
                         <div class="hero-slide" style="background: linear-gradient(135deg, #0B1D3A 0%, #0A2F6E 50%, #1E6FD9 100%);">
-                            <div class="slide-bg" style="background-image:url('Assets/Images/Student Exchange/student-exchange-1.svg');"></div>
+                            <div class="slide-bg" style="background-image:url('https://picsum.photos/seed/mu-exchange-hero/1400/600');"></div>
                             <div class="absolute inset-0 flex items-center">
                                 <div class="max-w-7xl mx-auto px-6 lg:px-8 w-full">
                                     <div class="max-w-2xl">
@@ -55,7 +55,7 @@ function renderHomePage() {
                                             Experience the<br/>World Together
                                         </h1>
                                         <p class="text-white/80 text-lg md:text-xl mb-8 leading-relaxed max-w-lg">
-                                            Join our semester exchange programs with 80+ partner universities across the globe.
+                                            Join our semester exchange programs with 95+ partner universities across the globe.
                                         </p>
                                         <a class="inline-flex items-center gap-2 px-7 py-3.5 bg-pcu-gold text-white font-semibold rounded-full hover:bg-yellow-500 transition shadow-xl"
                                            href="#" onclick="navigateTo('semester-exchange');return false">
@@ -69,7 +69,7 @@ function renderHomePage() {
 
                         <!-- Slide 3 -->
                         <div class="hero-slide" style="background: linear-gradient(135deg, #1E6FD9 0%, #3B82F6 50%, #60A5FA 100%);">
-                            <div class="slide-bg" style="background-image:url('Assets/Images/ICOP/icop-1.png');"></div>
+                            <div class="slide-bg" style="background-image:url('https://picsum.photos/seed/mu-community-hero/1400/600');"></div>
                             <div class="absolute inset-0 flex items-center">
                                 <div class="max-w-7xl mx-auto px-6 lg:px-8 w-full">
                                     <div class="max-w-2xl">
@@ -80,7 +80,7 @@ function renderHomePage() {
                                             Make an Impact<br/>Globally
                                         </h1>
                                         <p class="text-white/80 text-lg md:text-xl mb-8 leading-relaxed max-w-lg">
-                                            Engage in meaningful community service while experiencing Indonesian culture.
+                                            Engage in meaningful community service while experiencing diverse local cultures.
                                         </p>
                                         <a class="inline-flex items-center gap-2 px-7 py-3.5 bg-white text-pcu-blue font-semibold rounded-full hover:bg-pcu-light transition shadow-xl"
                                            href="#" onclick="navigateTo('intl-students');return false">
@@ -105,17 +105,17 @@ function renderHomePage() {
                 <div class="max-w-7xl mx-auto px-6 lg:px-8">
                     <div class="text-center mb-14 reveal">
                         <span class="inline-block px-6 py-3 bg-gray-200 text-pcu-navy text-xs font-semibold rounded-2xl mb-4 uppercase tracking-wider">Facts &amp; Figures</span>
-                        <h2 class="font-display text-3xl md:text-4xl font-bold text-pcu-navy" id="statsHeading">PCU in Numbers</h2>
+                        <h2 class="font-display text-3xl md:text-4xl font-bold text-pcu-navy" id="statsHeading">MU in Numbers</h2>
                     </div>
                     <div class="grid grid-cols-2 gap-6 reveal">
 
-                        <!-- Top 100 -->
+                        <!-- Top 150 -->
                         <div class="bg-pcu-yellow rounded-2xl p-8 text-center shadow-md border border-pcu-yellow/20 col-span-2 flex flex-col items-center justify-center min-h-full">
                             <div class="w-16 h-16 mx-auto mb-4 rounded-xl bg-white/20 flex items-center justify-center">
                                 <i class="w-8 h-8 text-white" data-lucide="award"></i>
                             </div>
-                            <div class="text-3xl md:text-4xl font-bold text-white leading-tight">Top 100 University</div>
-                            <div class="text-base text-white mt-2 leading-relaxed">QS South-Eastern Asia University Ranking 2026</div>
+                            <div class="text-3xl md:text-4xl font-bold text-white leading-tight">Top 150 University</div>
+                            <div class="text-base text-white mt-2 leading-relaxed">QS World University Rankings 2026</div>
                         </div>
 
                         <!-- Active Students -->
@@ -125,16 +125,16 @@ function renderHomePage() {
                                     <div class="w-14 h-14 mx-auto mb-4 rounded-xl bg-white/20 flex items-center justify-center">
                                         <i class="w-7 h-7 text-white" data-lucide="users"></i>
                                     </div>
-                                    <div class="counter text-3xl md:text-4xl font-bold text-white" data-target="4734">0</div>
+                                    <div class="counter text-3xl md:text-4xl font-bold text-white" data-target="6248">0</div>
                                     <div class="text-xs text-white mt-1 uppercase tracking-wider font-medium">Active Students</div>
                                 </div>
                                 <div class="flip-card-back bg-pcu-blue/10">
                                     <div class="text-center">
                                         <div class="text-lg font-bold text-white mb-3">Student Breakdown</div>
                                         <div class="text-sm text-white space-y-1">
-                                            <div>4528 Bachelor students</div>
-                                            <div>152 Masters students</div>
-                                            <div>54 Post-Doctorate students</div>
+                                            <div>5,914 Bachelor students</div>
+                                            <div>287 Masters students</div>
+                                            <div>47 Doctoral students</div>
                                         </div>
                                     </div>
                                 </div>
@@ -148,7 +148,7 @@ function renderHomePage() {
                                     <div class="w-14 h-14 mx-auto mb-4 rounded-xl bg-white/20 flex items-center justify-center">
                                         <i class="w-7 h-7 text-white" data-lucide="globe"></i>
                                     </div>
-                                    <div class="counter text-3xl md:text-4xl font-bold text-white" data-target="184">0</div>
+                                    <div class="counter text-3xl md:text-4xl font-bold text-white" data-target="210">0</div>
                                     <div class="text-xs text-white mt-1 uppercase tracking-wider font-medium">International Partners</div>
                                 </div>
                                 <div class="flip-card-back bg-pcu-magenta/10">
@@ -156,14 +156,14 @@ function renderHomePage() {
                                         <div class="text-lg font-bold text-white mb-2">International Partner List</div>
                                         <div class="text-sm text-white mb-3">More about our international partnerships</div>
                                         <div class="grid grid-cols-4 gap-3 items-center justify-items-center">
-                                            <img alt="Anhui University" class="w-10 h-10 object-contain" src="Assets/Images/Logo/China/Anhui University, China.jpg"/>
-                                            <img alt="FPNU" class="w-10 h-10 object-contain" src="Assets/Images/Logo/China/Fujian Polytechnic Normal University (FPNU), China.jpg"/>
-                                            <img alt="Sophia University" class="w-10 h-10 object-contain" src="Assets/Images/Logo/Japan/Sophia University, Japan.png"/>
-                                            <img alt="Meiji University" class="w-10 h-10 object-contain" src="Assets/Images/Logo/Japan/Meiji University, Japan.png"/>
-                                            <img alt="Fontys University" class="w-10 h-10 object-contain" src="Assets/Images/Logo/Netherlands/Fontys University of Applied Sciences, The Netherlands.png"/>
-                                            <img alt="Saxion University" class="w-10 h-10 object-contain" src="Assets/Images/Logo/Netherlands/Saxion University of Applied Sciences, the Netherlands.png"/>
-                                            <img alt="Hochschule Fresenius" class="w-10 h-10 object-contain" src="Assets/Images/Logo/Germany/Hochschule Fresenius University of Applied Sciences, Germany.png"/>
-                                            <img alt="Hochschule Mainz" class="w-10 h-10 object-contain" src="Assets/Images/Logo/Germany/Hochschule Mainz - University of Applied Sciences, Germany.png"/>
+                                            <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center text-white text-xs font-bold">JP</div>
+                                            <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center text-white text-xs font-bold">KR</div>
+                                            <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center text-white text-xs font-bold">DE</div>
+                                            <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center text-white text-xs font-bold">NL</div>
+                                            <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center text-white text-xs font-bold">AU</div>
+                                            <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center text-white text-xs font-bold">CN</div>
+                                            <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center text-white text-xs font-bold">UK</div>
+                                            <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center text-white text-xs font-bold">US</div>
                                         </div>
                                     </div>
                                 </div>
@@ -177,14 +177,14 @@ function renderHomePage() {
                                     <div class="w-14 h-14 mx-auto mb-4 rounded-xl bg-white/20 flex items-center justify-center">
                                         <i class="w-7 h-7 text-white" data-lucide="calendar"></i>
                                     </div>
-                                    <div class="text-3xl md:text-4xl font-bold text-white">1961</div>
+                                    <div class="text-3xl md:text-4xl font-bold text-white">1987</div>
                                     <div class="text-xs text-white mt-1 uppercase tracking-wider font-medium">Founded</div>
                                 </div>
                                 <div class="flip-card-back bg-pcu-green/10">
                                     <div class="text-center">
                                         <div class="text-lg font-bold text-white mb-1">Our History</div>
                                         <div class="text-sm text-white leading-relaxed">
-                                            Petra Christian University was founded in 1961 by the Petra Foundation to serve Indonesia through faith-based education. Today it is recognized as a leading private university with strong academic excellence and Christian character.
+                                            Meridian University was founded in 1987 with a mission to provide globally-minded education. Today it is recognized as a leading international university with strong academic programs and a vibrant multicultural campus community.
                                         </div>
                                     </div>
                                 </div>
@@ -198,7 +198,7 @@ function renderHomePage() {
                                     <div class="w-14 h-14 mx-auto mb-4 rounded-xl bg-white/20 flex items-center justify-center">
                                         <i class="w-7 h-7 text-white" data-lucide="building-2"></i>
                                     </div>
-                                    <div class="counter text-3xl md:text-4xl font-bold text-white" data-target="430">0</div>
+                                    <div class="counter text-3xl md:text-4xl font-bold text-white" data-target="380">0</div>
                                     <div class="text-xs text-white mt-1 uppercase tracking-wider font-medium">National Partners</div>
                                 </div>
                                 <div class="flip-card-back bg-pcu-yellow/10">
@@ -206,15 +206,15 @@ function renderHomePage() {
                                         <div class="text-lg font-bold text-white mb-2">Domestic Partnership</div>
                                         <div class="text-sm text-white mb-3">Click to learn more about our domestic partnerships</div>
                                         <div class="grid grid-cols-5 gap-2 items-center justify-items-center">
-                                            <img alt="Tokopedia" class="w-10 h-10 object-contain" src="Assets/Images/Industries/PT Tokopedia.png"/>
-                                            <img alt="GoTo Gojek" class="w-10 h-10 object-contain" src="Assets/Images/Industries/PT GoTo Gojek Tokopedia Tbk.svg"/>
-                                            <img alt="Semen Indonesia" class="w-10 h-10 object-contain" src="Assets/Images/Industries/PT. Semen Indonesia (Persero) Tbk..svg"/>
-                                            <img alt="JW Marriott" class="w-10 h-10 object-contain" src="Assets/Images/Industries/JW Marriott Hotel Surabaya.svg"/>
-                                            <img alt="Mayapada Hospital" class="w-10 h-10 object-contain" src="Assets/Images/Industries/Mayapada Hospital.png"/>
-                                            <img alt="Wings Group" class="w-10 h-10 object-contain" src="Assets/Images/Industries/Wings Group Surabaya.png"/>
-                                            <img alt="Maspion Group" class="w-10 h-10 object-contain" src="Assets/Images/Industries/Maspion Group.jpg"/>
-                                            <img alt="Samator Group" class="w-10 h-10 object-contain" src="Assets/Images/Industries/Samator Group.jpg"/>
-                                            <img alt="Bank Jatim" class="w-10 h-10 object-contain" src="Assets/Images/Industries/PT Bank Pembangunan Daerah Jawa Timur Tbk (Bank Jatim).jpg"/>
+                                            <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center text-white text-[10px] font-bold text-center leading-tight">Tech Corp</div>
+                                            <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center text-white text-[10px] font-bold text-center leading-tight">FinBank</div>
+                                            <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center text-white text-[10px] font-bold text-center leading-tight">MedPlus</div>
+                                            <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center text-white text-[10px] font-bold text-center leading-tight">GreenCo</div>
+                                            <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center text-white text-[10px] font-bold text-center leading-tight">InnoLab</div>
+                                            <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center text-white text-[10px] font-bold text-center leading-tight">AeroSys</div>
+                                            <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center text-white text-[10px] font-bold text-center leading-tight">DataVis</div>
+                                            <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center text-white text-[10px] font-bold text-center leading-tight">ClearMed</div>
+                                            <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center text-white text-[10px] font-bold text-center leading-tight">BioGen</div>
                                         </div>
                                     </div>
                                 </div>
@@ -226,8 +226,8 @@ function renderHomePage() {
                             <div class="w-14 h-14 mx-auto mb-4 rounded-xl bg-white/20 flex items-center justify-center">
                                 <i class="w-7 h-7 text-white" data-lucide="network"></i>
                             </div>
-                            <div class="counter text-3xl md:text-4xl font-bold text-white" data-target="52860">0</div>
-                            <div class="text-xs text-white mt-1 uppercase tracking-wider font-medium">Petranesian Alumni</div>
+                            <div class="counter text-3xl md:text-4xl font-bold text-white" data-target="47320">0</div>
+                            <div class="text-xs text-white mt-1 uppercase tracking-wider font-medium">MU Alumni Worldwide</div>
                         </div>
 
                         <!-- Study Programs -->
@@ -237,7 +237,7 @@ function renderHomePage() {
                                     <div class="w-14 h-14 mx-auto mb-4 rounded-xl bg-white/20 flex items-center justify-center">
                                         <i class="w-7 h-7 text-white" data-lucide="book-open"></i>
                                     </div>
-                                    <div class="counter text-3xl md:text-4xl font-bold text-white" data-target="57">0</div>
+                                    <div class="counter text-3xl md:text-4xl font-bold text-white" data-target="64">0</div>
                                     <div class="text-xs text-white mt-1 uppercase tracking-wider font-medium">Study Programs</div>
                                 </div>
                                 <div class="flip-card-back bg-pcu-red/10">
@@ -263,7 +263,7 @@ function renderHomePage() {
                                     <div class="w-14 h-14 mx-auto mb-4 rounded-xl bg-white/20 flex items-center justify-center">
                                         <i class="w-7 h-7 text-white" data-lucide="layers"></i>
                                     </div>
-                                    <div class="counter text-3xl md:text-4xl font-bold text-white" data-target="7">0</div>
+                                    <div class="counter text-3xl md:text-4xl font-bold text-white" data-target="8">0</div>
                                     <div class="text-xs text-white mt-1 uppercase tracking-wider font-medium">Faculties</div>
                                 </div>
                                 <div class="flip-card-back bg-pcu-blue/10 overflow-y-auto p-6 justify-start">
@@ -271,58 +271,52 @@ function renderHomePage() {
                                         <div class="text-lg font-bold text-white mb-4">Our Faculties</div>
                                         <div class="space-y-4">
                                             <div class="flex items-start gap-4">
-                                                <img alt="Faculty of Civil Engineering and Planning" class="w-12 h-12 object-contain rounded-lg bg-white p-2" src="Assets/Images/Faculty/Faculty of Civil Engineering and Planning.svg"/>
-                                                <div>
-                                                    <a class="font-semibold text-white hover:text-white/80" href="https://petra.ac.id/faculty/ftsp" target="_blank">Faculty of Civil Engineering and Planning</a>
+                                                <div class="w-12 h-12 rounded-lg bg-white p-2 flex items-center justify-center">
+                                                    <i class="w-6 h-6 text-gray-400" data-lucide="building"></i>
                                                 </div>
+                                                <div><span class="font-semibold text-white">Faculty of Engineering &amp; Technology</span></div>
                                             </div>
                                             <div class="flex items-start gap-4">
-                                                <img alt="Faculty of Industrial Technology" class="w-12 h-12 object-contain rounded-lg bg-white p-2" src="Assets/Images/Faculty/Faculty of Industrial Technology.svg"/>
-                                                <div>
-                                                    <a class="font-semibold text-white hover:text-white/80" href="https://petra.ac.id/faculty/fti" target="_blank">Faculty of Industrial Technology</a>
+                                                <div class="w-12 h-12 rounded-lg bg-white p-2 flex items-center justify-center">
+                                                    <i class="w-6 h-6 text-gray-400" data-lucide="trending-up"></i>
                                                 </div>
+                                                <div><span class="font-semibold text-white">School of Business &amp; Management</span></div>
                                             </div>
                                             <div class="flex items-start gap-4">
-                                                <img alt="School of Business Management" class="w-12 h-12 object-contain rounded-lg bg-white p-2" src="Assets/Images/Faculty/School of Business &amp; Management.svg"/>
-                                                <div>
-                                                    <a class="font-semibold text-white hover:text-white/80" href="https://petra.ac.id/faculty/sbm" target="_blank">School of Business Management</a>
+                                                <div class="w-12 h-12 rounded-lg bg-white p-2 flex items-center justify-center">
+                                                    <i class="w-6 h-6 text-gray-400" data-lucide="palette"></i>
                                                 </div>
-                                            </div>
-                                            <div class="flex items-start gap-4">
-                                                <img alt="Faculty of Humanities and Creative Industries" class="w-12 h-12 object-contain rounded-lg bg-white p-2" src="Assets/Images/Faculty/Faculty of Humanities and Creative Industries.svg"/>
-                                                <div>
-                                                    <a class="font-semibold text-white hover:text-white/80" href="https://petra.ac.id/fhik" target="_blank">Faculty of Humanities and Creative Industries</a>
-                                                </div>
+                                                <div><span class="font-semibold text-white">Faculty of Humanities &amp; Creative Arts</span></div>
                                             </div>
                                             <div class="flex items-start gap-4">
                                                 <div class="w-12 h-12 rounded-lg bg-white p-2 flex items-center justify-center">
                                                     <i class="w-6 h-6 text-gray-400" data-lucide="activity"></i>
                                                 </div>
-                                                <div>
-                                                    <a class="font-semibold text-white hover:text-white/80" href="https://petra.ac.id/fkg" target="_blank">Faculty of Dentistry</a>
-                                                </div>
+                                                <div><span class="font-semibold text-white">Faculty of Health Sciences</span></div>
                                             </div>
                                             <div class="flex items-start gap-4">
                                                 <div class="w-12 h-12 rounded-lg bg-white p-2 flex items-center justify-center">
-                                                    <i class="w-6 h-6 text-gray-400" data-lucide="heart"></i>
+                                                    <i class="w-6 h-6 text-gray-400" data-lucide="flask-conical"></i>
                                                 </div>
-                                                <div>
-                                                    <a class="font-semibold text-white hover:text-white/80" href="https://petra.ac.id/fk" target="_blank">Faculty of Medicine</a>
-                                                </div>
+                                                <div><span class="font-semibold text-white">Faculty of Natural Sciences</span></div>
                                             </div>
                                             <div class="flex items-start gap-4">
-                                                <img alt="Faculty of Teacher Education" class="w-12 h-12 object-contain rounded-lg bg-white p-2" src="Assets/Images/Faculty/Faculty of Teacher Education.svg"/>
-                                                <div>
-                                                    <a class="font-semibold text-white hover:text-white/80" href="https://petra.ac.id/fkip" target="_blank">Faculty of Teacher Education</a>
+                                                <div class="w-12 h-12 rounded-lg bg-white p-2 flex items-center justify-center">
+                                                    <i class="w-6 h-6 text-gray-400" data-lucide="users"></i>
                                                 </div>
+                                                <div><span class="font-semibold text-white">Faculty of Social Sciences</span></div>
+                                            </div>
+                                            <div class="flex items-start gap-4">
+                                                <div class="w-12 h-12 rounded-lg bg-white p-2 flex items-center justify-center">
+                                                    <i class="w-6 h-6 text-gray-400" data-lucide="book"></i>
+                                                </div>
+                                                <div><span class="font-semibold text-white">Faculty of Education</span></div>
                                             </div>
                                             <div class="flex items-start gap-4">
                                                 <div class="w-12 h-12 rounded-lg bg-white p-2 flex items-center justify-center">
                                                     <i class="w-6 h-6 text-gray-400" data-lucide="briefcase"></i>
                                                 </div>
-                                                <div>
-                                                    <a class="font-semibold text-white hover:text-white/80" href="https://petra.ac.id/pbs" target="_blank">Petra Business School</a>
-                                                </div>
+                                                <div><span class="font-semibold text-white">Meridian Graduate School</span></div>
                                             </div>
                                         </div>
                                     </div>
@@ -337,44 +331,45 @@ function renderHomePage() {
                                     <div class="w-14 h-14 mx-auto mb-4 rounded-xl bg-white/20 flex items-center justify-center">
                                         <i class="w-7 h-7 text-white" data-lucide="award"></i>
                                     </div>
-                                    <div class="text-3xl md:text-4xl font-bold text-white">A</div>
+                                    <div class="text-3xl md:text-4xl font-bold text-white">A+</div>
                                     <div class="text-xs text-white mt-1 uppercase tracking-wider font-medium">Excellent Accreditation</div>
                                 </div>
                                 <div class="flip-card-back bg-pcu-yellow/10 overflow-y-auto p-6">
                                     <div class="space-y-4 text-left">
                                         <div class="flex items-start gap-4">
-                                            <img alt="BAN-PT" class="w-12 h-12 object-contain rounded-lg bg-white p-2" src="Assets/Images/Accreditation/Ban-Pt_edit.png"/>
+                                            <div class="w-12 h-12 rounded-lg bg-white p-2 flex items-center justify-center shrink-0">
+                                                <i class="w-6 h-6 text-gray-400" data-lucide="shield-check"></i>
+                                            </div>
                                             <div>
-                                                <div class="font-semibold text-white">Terakreditasi Unggul</div>
-                                                <div class="text-sm text-white">BAN-PT</div>
+                                                <div class="font-semibold text-white">National Accreditation Board (A+)</div>
+                                                <div class="text-sm text-white">Highest rating in all institutional categories</div>
                                             </div>
                                         </div>
                                         <div class="flex items-start gap-4">
-                                            <img alt="AQAS" class="w-12 h-12 object-contain rounded-lg bg-white p-2" src="Assets/Images/Accreditation/AQAS-02.png"/>
+                                            <div class="w-12 h-12 rounded-lg bg-white p-2 flex items-center justify-center shrink-0">
+                                                <i class="w-6 h-6 text-gray-400" data-lucide="globe"></i>
+                                            </div>
                                             <div>
-                                                <div class="font-semibold text-white">Accreditation agency based in Germany</div>
-                                                <div class="text-sm text-white">Visual Communication Design, Interior Design</div>
+                                                <div class="font-semibold text-white">ABET Accreditation</div>
+                                                <div class="text-sm text-white">Engineering, Computing &amp; Technology programs</div>
                                             </div>
                                         </div>
                                         <div class="flex items-start gap-4">
-                                            <img alt="AUN-QA" class="w-12 h-12 object-contain rounded-lg bg-white p-2" src="Assets/Images/Accreditation/aun-qa.png"/>
+                                            <div class="w-12 h-12 rounded-lg bg-white p-2 flex items-center justify-center shrink-0">
+                                                <i class="w-6 h-6 text-gray-400" data-lucide="award"></i>
+                                            </div>
                                             <div>
-                                                <div class="font-semibold text-white">ASEAN University Network-Quality Assurance</div>
-                                                <div class="text-sm text-white">Architecture, Accounting, Management, and Communication Science</div>
+                                                <div class="font-semibold text-white">AACSB Accreditation</div>
+                                                <div class="text-sm text-white">School of Business &amp; Management</div>
                                             </div>
                                         </div>
                                         <div class="flex items-start gap-4">
-                                            <img alt="IABEE" class="w-12 h-12 object-contain rounded-lg bg-white p-2" src="Assets/Images/Accreditation/IABEE Logo_Acc_Program_ENG.png"/>
-                                            <div>
-                                                <div class="font-semibold text-white">Full signatory member of Washington Accord</div>
-                                                <div class="text-sm text-white">Civil Engineering, Electrical Engineering, Mechanical Engineering, Industrial Engineering, Informatics</div>
+                                            <div class="w-12 h-12 rounded-lg bg-white p-2 flex items-center justify-center shrink-0">
+                                                <i class="w-6 h-6 text-gray-400" data-lucide="star"></i>
                                             </div>
-                                        </div>
-                                        <div class="flex items-start gap-4">
-                                            <img alt="KAAB" class="w-12 h-12 object-contain rounded-lg bg-white p-2" src="Assets/Images/Accreditation/KAAB.png"/>
                                             <div>
-                                                <div class="font-semibold text-white">A signatory member of Korea Architectural Accrediting Board</div>
-                                                <div class="text-sm text-white">Architecture (Bachelor's and Postgraduate Programs)</div>
+                                                <div class="font-semibold text-white">AUN-QA Member</div>
+                                                <div class="text-sm text-white">ASEAN University Network Quality Assurance</div>
                                             </div>
                                         </div>
                                     </div>
@@ -386,67 +381,67 @@ function renderHomePage() {
                 </div>
             </section>
 
-            <!-- STUDY AT PCU -->
+            <!-- STUDY AT MU -->
             <section class="py-20 bg-white">
                 <div class="max-w-7xl mx-auto px-6 lg:px-8">
                     <div class="text-center mb-14 reveal">
                         <span class="inline-block px-6 py-3 bg-gray-200 text-pcu-navy text-xs font-semibold rounded-2xl mb-4 uppercase tracking-wider">Programs</span>
-                        <h2 class="font-display text-3xl md:text-4xl font-bold text-pcu-navy" id="studyHeading">Study at PCU</h2>
+                        <h2 class="font-display text-3xl md:text-4xl font-bold text-pcu-navy" id="studyHeading">Study at MU</h2>
                         <p class="text-gray-500 mt-3 max-w-xl mx-auto">Explore a wide range of international academic programs tailored for global learners.</p>
                     </div>
                     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 reveal">
 
                         <div class="program-card bg-white rounded-2xl border border-gray-100 overflow-hidden cursor-pointer" onclick="navigateTo('semester-exchange')">
                             <div class="h-44 bg-slate-100 overflow-hidden relative">
-                                <img alt="Semester Exchange" class="w-full h-full object-cover" src="Assets/Images/Student Exchange/student-exchange-2.JPG"/>
+                                <img alt="Semester Exchange" class="w-full h-full object-cover" src="https://picsum.photos/seed/mu-prog1/800/440"/>
                                 <div class="absolute inset-0 bg-pcu-blue/30"></div>
                             </div>
                             <div class="p-6">
                                 <h3 class="font-semibold text-lg text-pcu-navy mb-2">Semester Exchange</h3>
-                                <p class="text-sm text-gray-500 leading-relaxed">Spend a semester at PCU and immerse yourself in Indonesian academic culture.</p>
+                                <p class="text-sm text-gray-500 leading-relaxed">Spend a semester at MU and immerse yourself in our vibrant multicultural campus.</p>
                                 <span class="inline-flex items-center gap-1 text-pcu-sky text-sm font-medium mt-4 hover:gap-2 transition-all">Learn more <i class="w-3.5 h-3.5" data-lucide="arrow-right"></i></span>
                             </div>
                         </div>
 
                         <div class="program-card bg-white rounded-2xl border border-gray-100 overflow-hidden cursor-pointer" onclick="navigateTo('intl-degree')">
                             <div class="h-44 bg-slate-100 overflow-hidden relative">
-                                <img alt="International Degree Program" class="w-full h-full object-cover" src="Assets/Images/Student Exchange/student-exchange-3.jpg"/>
+                                <img alt="International Degree Program" class="w-full h-full object-cover" src="https://picsum.photos/seed/mu-prog2/800/440"/>
                                 <div class="absolute inset-0 bg-pcu-sky/30"></div>
                             </div>
                             <div class="p-6">
                                 <h3 class="font-semibold text-lg text-pcu-navy mb-2">International Degree Program</h3>
-                                <p class="text-sm text-gray-500 leading-relaxed">Complete your full degree at PCU with world-class education and global perspectives.</p>
+                                <p class="text-sm text-gray-500 leading-relaxed">Complete your full degree at MU with world-class education and global perspectives.</p>
                                 <span class="inline-flex items-center gap-1 text-pcu-sky text-sm font-medium mt-4 hover:gap-2 transition-all">Learn more <i class="w-3.5 h-3.5" data-lucide="arrow-right"></i></span>
                             </div>
                         </div>
 
                         <div class="program-card bg-white rounded-2xl border border-gray-100 overflow-hidden cursor-pointer" onclick="navigateTo('cop')">
                             <div class="h-44 bg-slate-100 overflow-hidden relative">
-                                <img alt="International Community Outreach Program" class="w-full h-full object-cover" src="Assets/Images/ICOP/icop-1.png"/>
+                                <img alt="International Community Outreach Program" class="w-full h-full object-cover" src="https://picsum.photos/seed/mu-prog3/800/440"/>
                                 <div class="absolute inset-0 bg-pcu-yellow/30"></div>
                             </div>
                             <div class="p-6">
                                 <h3 class="font-semibold text-lg text-pcu-navy mb-2">International Community Outreach Program</h3>
-                                <p class="text-sm text-gray-500 leading-relaxed">Service learning combining academic development with social impact in rural Indonesian communities.</p>
+                                <p class="text-sm text-gray-500 leading-relaxed">Service learning combining academic development with social impact in local communities.</p>
                                 <span class="inline-flex items-center gap-1 text-pcu-sky text-sm font-medium mt-4 hover:gap-2 transition-all">Learn more <i class="w-3.5 h-3.5" data-lucide="arrow-right"></i></span>
                             </div>
                         </div>
 
                         <div class="program-card bg-white rounded-2xl border border-gray-100 overflow-hidden cursor-pointer" onclick="navigateTo('joint-double-degree')">
                             <div class="h-44 bg-slate-100 overflow-hidden relative">
-                                <img alt="Joint/Double Degree" class="w-full h-full object-cover" src="Assets/Images/Student Exchange/student-exchange-4.JPG"/>
+                                <img alt="Joint/Double Degree" class="w-full h-full object-cover" src="https://picsum.photos/seed/mu-prog4/800/440"/>
                                 <div class="absolute inset-0 bg-pcu-purple/30"></div>
                             </div>
                             <div class="p-6">
                                 <h3 class="font-semibold text-lg text-pcu-navy mb-2">Joint/Double Degree</h3>
-                                <p class="text-sm text-gray-500 leading-relaxed">Earn degrees from PCU and a partner university simultaneously.</p>
+                                <p class="text-sm text-gray-500 leading-relaxed">Earn degrees from MU and a partner university simultaneously.</p>
                                 <span class="inline-flex items-center gap-1 text-pcu-sky text-sm font-medium mt-4 hover:gap-2 transition-all">Learn more <i class="w-3.5 h-3.5" data-lucide="arrow-right"></i></span>
                             </div>
                         </div>
 
                         <div class="program-card bg-white rounded-2xl border border-gray-100 overflow-hidden cursor-pointer" onclick="navigateTo('pcu-students')">
                             <div class="h-44 bg-slate-100 overflow-hidden relative">
-                                <img alt="Internship" class="w-full h-full object-cover" src="Assets/Images/Student Exchange/student-exchange-5.jpg"/>
+                                <img alt="Internship" class="w-full h-full object-cover" src="https://picsum.photos/seed/mu-prog5/800/440"/>
                                 <div class="absolute inset-0 bg-pcu-green/30"></div>
                             </div>
                             <div class="p-6">
@@ -478,8 +473,8 @@ function renderHomePage() {
                     <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-10 reveal gap-6">
                         <div>
                             <span class="inline-block px-6 py-3 bg-gray-200 text-pcu-navy text-xs font-semibold rounded-2xl mb-4 uppercase tracking-wider">Latest Updates</span>
-                            <h2 class="font-display text-3xl md:text-4xl font-bold text-pcu-navy" id="newsHeading">PCU International News</h2>
-                            <p class="max-w-2xl text-gray-600 mt-3">Read the latest stories, partnership announcements, and student achievements from Petra Christian University.</p>
+                            <h2 class="font-display text-3xl md:text-4xl font-bold text-pcu-navy" id="newsHeading">MU International News</h2>
+                            <p class="max-w-2xl text-gray-600 mt-3">Read the latest stories, partnership announcements, and student achievements from Meridian University.</p>
                         </div>
                         <a class="inline-flex items-center gap-1 text-pcu-sky font-medium text-sm hover:gap-2 transition-all"
                            href="#" onclick="navigateTo('news');return false">
@@ -500,19 +495,19 @@ function renderHomePage() {
                     <div class="grid sm:grid-cols-2 gap-6 max-w-2xl mx-auto reveal">
 
                         <a class="bg-pcu-blue/10 rounded-2xl p-8 text-center program-card block border border-pcu-blue/10 hover:shadow-lg transition-all"
-                           download="" href="https://canva.link/internationalstudentsguidebookpetra">
-                            <img alt="International Students Guidebook thumbnail" class="mx-auto mb-5 w-32 h-32 rounded-3xl border border-white/20 shadow-sm" src="Assets/Images/Thumbnails/International Students Guidebook.png"/>
+                           href="#">
+                            <img alt="International Students Guidebook" class="mx-auto mb-5 w-32 h-32 rounded-3xl border border-white/20 shadow-sm object-cover" src="https://picsum.photos/seed/mu-guidebook/128/128"/>
                             <h3 class="font-semibold text-pcu-navy text-lg mb-2">International Students Guidebook</h3>
-                            <p class="text-sm text-gray-500 mb-5">Everything you need to know about studying at PCU.</p>
+                            <p class="text-sm text-gray-500 mb-5">Everything you need to know about studying at MU.</p>
                             <span class="inline-flex items-center gap-2 px-5 py-2.5 bg-pcu-navy text-white text-sm font-medium rounded-full">
                                 <i class="w-4 h-4" data-lucide="download"></i> Download PDF
                             </span>
                         </a>
 
                         <a class="bg-pcu-blue/10 rounded-2xl p-8 text-center program-card block border border-pcu-blue/10 hover:shadow-lg transition-all"
-                           download="" href="https://canva.link/partnershipbookletpetra">
-                            <img alt="PCU Global Booklet thumbnail" class="mx-auto mb-5 w-32 h-32 rounded-3xl border border-white/20 shadow-sm" src="Assets/Images/Thumbnails/PCU Global Booklet.png"/>
-                            <h3 class="font-semibold text-pcu-navy text-lg mb-2">PCU Global Booklet</h3>
+                           href="#">
+                            <img alt="MU Global Booklet" class="mx-auto mb-5 w-32 h-32 rounded-3xl border border-white/20 shadow-sm object-cover" src="https://picsum.photos/seed/mu-booklet/128/128"/>
+                            <h3 class="font-semibold text-pcu-navy text-lg mb-2">MU Global Booklet</h3>
                             <p class="text-sm text-gray-500 mb-5">Explore our international partnerships and programs.</p>
                             <span class="inline-flex items-center gap-2 px-5 py-2.5 bg-pcu-navy text-white text-sm font-medium rounded-full">
                                 <i class="w-4 h-4" data-lucide="download"></i> Download PDF

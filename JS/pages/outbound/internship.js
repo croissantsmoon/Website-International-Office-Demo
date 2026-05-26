@@ -5,7 +5,7 @@ function renderInternship() {
 <div style="padding-top: 80px;">
 <div class="relative overflow-hidden bg-gradient-to-r from-pcu-orange to-amber-400 py-16 md:py-24">
 <div class="absolute inset-0">
-<img alt="Gedung Petra" class="w-full h-full object-cover opacity-60" src="Assets/Images/Student%20Exchange/internship-1.JPG" style="object-position: center 50%;"/>
+<img alt="MU Campus" class="w-full h-full object-cover opacity-60" src="https://picsum.photos/seed/mu-internship-hero/1400/600" style="object-position: center 50%;"/>
 </div>
 <div class="absolute inset-0 bg-gradient-to-r from-pcu-orange/70 to-amber-400/70"></div>
 <div class="relative max-w-7xl mx-auto px-6 lg:px-8"><a class="inline-flex items-center gap-1 text-white/60 text-sm mb-6 hover:text-white transition" href="#" onclick="navigateTo('home');return false"><i class="w-4 h-4" data-lucide="arrow-left"></i> Back to Home</a>
@@ -21,7 +21,7 @@ function renderInternship() {
 <div class="mb-8">
 <span class="inline-block px-3 py-1 bg-teal-50 text-teal-700 text-xs font-semibold rounded-full mb-3 border border-teal-200">Section 1</span>
 <h2 class="font-display text-2xl md:text-3xl font-bold text-pcu-blue">List of Industry Partners</h2>
-<p class="text-gray-500 mt-2 max-w-2xl">PCU collaborates with leading companies and organizations across various industries to provide students with meaningful internship experiences.</p>
+<p class="text-gray-500 mt-2 max-w-2xl">MU collaborates with leading companies and organizations across various industries to provide students with meaningful internship experiences.</p>
 </div>
 <!-- Partner Type Tabs + Search -->
 <div class="flex flex-wrap items-center justify-between gap-4 mb-5">
@@ -66,7 +66,7 @@ function renderInternship() {
   <div>
     <span class="inline-block px-3 py-1 bg-teal-50 text-teal-700 text-xs font-semibold rounded-full mb-3 border border-teal-200">Section 2</span>
     <h2 class="font-display text-2xl md:text-3xl font-bold text-pcu-blue">Internship Opportunities</h2>
-    <p class="text-gray-500 mt-2 max-w-2xl">Browse current internship openings available exclusively for PCU students. New opportunities are added regularly.</p>
+    <p class="text-gray-500 mt-2 max-w-2xl">Browse current internship openings available exclusively for MU students. New opportunities are added regularly.</p>
   </div>
   <div id="internship-admin-add-btn" class="hidden pt-1">
     <button onclick="openInternshipOpportunityModal(null)"
@@ -82,7 +82,7 @@ function renderInternship() {
 <i class="w-12 h-12 mx-auto mb-4 text-white/80" data-lucide="briefcase"></i>
 <h3 class="font-display text-2xl font-bold mb-3">Don't See a Fit?</h3>
 <p class="text-white/80 mb-6 max-w-xl mx-auto">Reach out to the International Office — we can help connect you with the right opportunity based on your interests and major.</p>
-<a class="inline-flex items-center gap-2 px-8 py-3.5 bg-white text-pcu-orange font-semibold rounded-full hover:bg-orange-50 transition shadow-lg" href="mailto:io@petra.ac.id">
+<a class="inline-flex items-center gap-2 px-8 py-3.5 bg-white text-pcu-orange font-semibold rounded-full hover:bg-orange-50 transition shadow-lg" href="mailto:io@meridian.edu">
 <i class="w-4 h-4" data-lucide="mail"></i> Contact International Office
        </a>
 </div>

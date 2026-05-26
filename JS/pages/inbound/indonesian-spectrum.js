@@ -7,8 +7,8 @@ function renderIndonesianSpectrum() {
                 <!-- Hero Section -->
                 <div class="relative overflow-hidden py-16 md:py-24" style="background: var(--pcu-red-to-yellow-gradient)">
                     <div class="absolute inset-0">
-                        <img alt="Indonesian SPECTRUM" class="w-full h-full object-cover opacity-60"
-                             src="Assets/Images/Student%20Exchange/student-exchange-4.JPG"
+                        <img alt="Global SPECTRUM" class="w-full h-full object-cover opacity-60"
+                             src="https://picsum.photos/seed/mu-spectrum-hero/1400/600"
                              style="object-position: center 60%;"/>
                     </div>
                     <div class="absolute inset-0" style="background: linear-gradient(to right, rgba(236,0,140,0.8), rgba(255,188,0,0.8))"></div>
@@ -17,8 +17,8 @@ function renderIndonesianSpectrum() {
                            href="#" onclick="navigateTo('home');return false">
                             <i class="w-4 h-4" data-lucide="arrow-left"></i> Back to Home
                         </a>
-                        <h1 class="font-display text-4xl md:text-5xl font-bold text-white mb-4">Indonesian SPECTRUM</h1>
-                        <p class="text-white/80 text-lg max-w-3xl">A short-term cultural and academic immersion program exploring Indonesia's rich heritage and modern landscape.</p>
+                        <h1 class="font-display text-4xl md:text-5xl font-bold text-white mb-4">Global SPECTRUM</h1>
+                        <p class="text-white/80 text-lg max-w-3xl">A short-term cultural and academic immersion program exploring diverse global heritages and contemporary landscapes.</p>
                     </div>
                 </div>
 
@@ -48,7 +48,7 @@ function renderIndonesianSpectrum() {
                                         <i class="w-6 h-6 text-pcu-gold" data-lucide="map-pin"></i>
                                     </div>
                                     <h3 class="font-semibold text-lg text-pcu-blue mb-2">Location</h3>
-                                    <p class="text-gray-600">Surabaya and various sites in Indonesia</p>
+                                    <p class="text-gray-600">Meadowvale and various international partner sites</p>
                                 </div>
                             </div>
                             <div class="prose prose-lg max-w-none">
@@ -73,7 +73,7 @@ function renderIndonesianSpectrum() {
                                         <li>• Indonesian language and culture courses</li>
                                         <li>• History and contemporary society studies</li>
                                         <li>• Cross-cultural communication workshops</li>
-                                        <li>• Academic lectures by PCU faculty</li>
+                                        <li>• Academic lectures by MU faculty</li>
                                     </ul>
                                 </div>
                                 <div>
@@ -115,8 +115,8 @@ function renderIndonesianSpectrum() {
 
                         <!-- CTA Section -->
                         <div class="bg-pcu-red rounded-3xl p-12 text-white text-center">
-                            <h2 class="font-display text-3xl font-bold mb-3">Experience Indonesian Culture</h2>
-                            <p class="text-white/80 mb-8 max-w-2xl mx-auto">Join Indonesian SPECTRUM and discover the beauty and diversity of Indonesia through an unforgettable cultural journey.</p>
+                            <h2 class="font-display text-3xl font-bold mb-3">Experience Global Culture</h2>
+                            <p class="text-white/80 mb-8 max-w-2xl mx-auto">Join Global SPECTRUM and discover the beauty and diversity of world cultures through an unforgettable immersive journey.</p>
                             <div class="flex flex-wrap justify-center gap-4">
                                 <a class="inline-flex items-center gap-2 px-7 py-3.5 bg-[#1c446d] text-white font-semibold rounded-full hover:bg-[#163553] transition shadow-lg" href="#">
                                     Apply Now <i class="w-4 h-4" data-lucide="arrow-right"></i>

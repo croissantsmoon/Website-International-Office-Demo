@@ -7,8 +7,8 @@ function renderSemesterExchange() {
                 <!-- Hero Section -->
                 <div class="relative overflow-hidden py-16 md:py-24" style="background: var(--pcu-red-to-yellow-gradient)">
                     <div class="absolute inset-0">
-                        <img alt="Gedung Petra" class="w-full h-full object-cover opacity-60"
-                             src="Assets/Images/Student%20Exchange/student-exchange-1.svg"
+                        <img alt="MU Campus" class="w-full h-full object-cover opacity-60"
+                             src="https://picsum.photos/seed/mu-exchange1/1400/600"
                              style="object-position: center 5%;"/>
                     </div>
                     <div class="absolute inset-0" style="background: linear-gradient(to right, rgba(236,0,140,0.8), rgba(255,188,0,0.8))"></div>
@@ -18,7 +18,7 @@ function renderSemesterExchange() {
                             <i class="w-4 h-4" data-lucide="arrow-left"></i> Back to Home
                         </a>
                         <h1 class="font-display text-4xl md:text-5xl font-bold text-white mb-4">Semester Exchange Program</h1>
-                        <p class="text-white/80 text-lg max-w-3xl">Experience global education by spending a semester at Petra Christian University. Immerse yourself in Indonesian culture while earning academic credits.</p>
+                        <p class="text-white/80 text-lg max-w-3xl">Experience global education by spending a semester at Meridian University. Immerse yourself in our vibrant multicultural campus while earning academic credits.</p>
                     </div>
                 </div>
 
@@ -48,7 +48,7 @@ function renderSemesterExchange() {
                                         <i class="w-6 h-6 text-pcu-gold" data-lucide="globe"></i>
                                     </div>
                                     <h3 class="font-semibold text-lg text-pcu-blue mb-2">Location</h3>
-                                    <p class="text-gray-600">Surabaya, Indonesia - a vibrant coastal city</p>
+                                    <p class="text-gray-600">Meadowvale, CA — a vibrant university city</p>
                                 </div>
                             </div>
                             <div class="prose prose-lg max-w-none">
@@ -119,7 +119,7 @@ function renderSemesterExchange() {
                                     <div class="w-10 h-10 rounded-full bg-white text-pcu-blue flex items-center justify-center font-bold mb-4 mx-auto">
                                         <i class="w-5 h-5" data-lucide="plane"></i>
                                     </div>
-                                    <h3 class="font-semibold mb-2">Arrive at PCU</h3>
+                                    <h3 class="font-semibold mb-2">Arrive at MU</h3>
                                     <p class="text-sm text-white/70">Begin your journey</p>
                                 </div>
                             </div>
@@ -163,7 +163,7 @@ function renderSemesterExchange() {
                                         <i class="w-4 h-4 text-pcu-gold fill-pcu-gold" data-lucide="star"></i>
                                         <i class="w-4 h-4 text-pcu-gold fill-pcu-gold" data-lucide="star"></i>
                                     </div>
-                                    <p class="text-gray-700 mb-4 italic">"My semester at PCU was transformative. The faculty was supportive, and I made lifelong friends from around the world. Indonesian hospitality is real!"</p>
+                                    <p class="text-gray-700 mb-4 italic">"My semester at MU was transformative. The faculty was incredibly supportive, and I made lifelong friends from around the world. The campus hospitality is real!"</p>
                                     <p class="font-semibold text-pcu-blue">Emma Rodriguez</p>
                                     <p class="text-sm text-gray-500">University of Madrid, Spain</p>
                                 </div>
@@ -185,7 +185,7 @@ function renderSemesterExchange() {
                         <!-- CTA Section -->
                         <div class="bg-pcu-red rounded-3xl p-12 text-white text-center">
                             <h2 class="font-display text-3xl font-bold mb-3">Ready to Start Your Journey?</h2>
-                            <p class="text-white/80 mb-8 max-w-2xl mx-auto">Join hundreds of students from around the world who have experienced transformative semesters at Petra Christian University.</p>
+                            <p class="text-white/80 mb-8 max-w-2xl mx-auto">Join hundreds of students from around the world who have experienced transformative semesters at Meridian University.</p>
                             <div class="flex flex-wrap justify-center gap-4">
                                 <a class="inline-flex items-center gap-2 px-7 py-3.5 bg-[#1c446d] text-white font-semibold rounded-full hover:bg-[#163553] transition shadow-lg" href="#">
                                     Apply Now <i class="w-4 h-4" data-lucide="arrow-right"></i>

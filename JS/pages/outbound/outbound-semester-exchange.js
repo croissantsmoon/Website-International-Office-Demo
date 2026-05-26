@@ -5,14 +5,14 @@ function renderOutboundSemesterExchange() {
 <div style="padding-top: 80px;">
 <div class="relative overflow-hidden bg-gradient-to-r from-pcu-orange to-amber-400 py-16 md:py-24">
 <div class="absolute inset-0">
-<img alt="Gedung Petra" class="w-full h-full object-cover opacity-60" src="Assets/Images/Student%20Exchange/student-exchange-6.JPG" style="object-position: center 50%;"/>
+<img alt="MU Campus" class="w-full h-full object-cover opacity-60" src="https://picsum.photos/seed/mu-ose-hero/1400/600" style="object-position: center 50%;"/>
 </div>
 <div class="absolute inset-0 bg-gradient-to-r from-pcu-orange/70 to-amber-400/70"></div>
 <div class="relative max-w-7xl mx-auto px-6 lg:px-8"><a class="inline-flex items-center gap-1 text-white/60 text-sm mb-6 hover:text-white transition" href="#" onclick="navigateTo('home');return false"><i class="w-4 h-4" data-lucide="arrow-left"></i> Back to Home</a>
 <a class="inline-flex items-center gap-1 text-white/70 text-sm mb-4 hover:text-white transition" href="#" onclick="navigateTo('pcu-students');return false"><i class="w-4 h-4" data-lucide="arrow-left"></i> Back to Local Students</a>
 <span class="inline-block px-4 py-1.5 bg-white/15 backdrop-blur text-white text-xs font-semibold rounded-full mb-4 tracking-wide uppercase">Outbound Programs</span>
 <h1 class="font-display text-3xl md:text-5xl font-bold text-white mb-3">Outbound Semester Exchange</h1>
-<p class="text-white/80 text-lg max-w-2xl">Explore the world through PCU's wide network of partner universities. Study abroad for one semester and earn transferable credits.</p>
+<p class="text-white/80 text-lg max-w-2xl">Explore the world through MU's wide network of partner universities. Study abroad for one semester and earn transferable credits.</p>
 </div>
 </div>
 <div class="max-w-7xl mx-auto px-6 lg:px-8 py-16">
@@ -90,7 +90,7 @@ function renderOutboundSemesterExchange() {
 <div class="text-center">
 <h3 class="font-display text-2xl font-bold text-pcu-blue mb-3">Ready to Go Global?</h3>
 <p class="text-gray-500 mb-6">Contact the International Office to start your application.</p>
-<a class="inline-flex items-center gap-2 px-8 py-3.5 bg-pcu-blue text-white font-semibold rounded-full hover:bg-pcu-sky transition shadow-lg shadow-pcu-blue/20" href="mailto:io@petra.ac.id">
+<a class="inline-flex items-center gap-2 px-8 py-3.5 bg-pcu-blue text-white font-semibold rounded-full hover:bg-pcu-sky transition shadow-lg shadow-pcu-blue/20" href="mailto:io@meridian.edu">
 <i class="w-4 h-4" data-lucide="mail"></i> Contact Us
        </a>
 </div>

@@ -7,8 +7,8 @@ function renderCop() {
                 <!-- Hero Section -->
                 <div class="relative overflow-hidden py-16 md:py-24" style="background: var(--pcu-red-to-yellow-gradient)">
                     <div class="absolute inset-0">
-                        <img alt="ICOP" class="w-full h-full object-cover opacity-60"
-                             src="Assets/Images/ICOP/icop-1.png"
+                        <img alt="Community Outreach Program" class="w-full h-full object-cover opacity-60"
+                             src="https://picsum.photos/seed/mu-cop-hero/1400/600"
                              style="object-position: center 50%;"/>
                     </div>
                     <div class="absolute inset-0" style="background: linear-gradient(to right, rgba(236,0,140,0.8), rgba(255,188,0,0.8))"></div>
@@ -18,7 +18,7 @@ function renderCop() {
                             <i class="w-4 h-4" data-lucide="arrow-left"></i> Back to Home
                         </a>
                         <h1 class="font-display text-4xl md:text-5xl font-bold text-white mb-4">International Community Outreach Program</h1>
-                        <p class="text-white/80 text-lg max-w-3xl">Transform communities while transforming yourself through meaningful service learning in rural Indonesia.</p>
+                        <p class="text-white/80 text-lg max-w-3xl">Transform communities while transforming yourself through meaningful service learning in rural communities around the world.</p>
                     </div>
                 </div>
 
@@ -43,7 +43,7 @@ function renderCop() {
                                         <i class="w-5 h-5 text-pcu-gold" data-lucide="map-pin"></i>
                                     </div>
                                     <h3 class="font-semibold text-pcu-blue mb-1">Location</h3>
-                                    <p class="text-sm text-gray-600">Rural villages across East Java</p>
+                                    <p class="text-sm text-gray-600">Rural communities across partner regions</p>
                                 </div>
                                 <div class="bg-white rounded-xl p-6 border border-pcu-gold/20">
                                     <div class="w-10 h-10 rounded-lg bg-pcu-gold/10 flex items-center justify-center mb-3">
@@ -88,7 +88,7 @@ function renderCop() {
                                         </div>
                                         <div>
                                             <h3 class="font-semibold text-lg text-pcu-blue mb-2">Cultural Immersion</h3>
-                                            <p class="text-gray-600">Live alongside Indonesian host families, learn the language, and deepen understanding of local values, traditions, and worldviews.</p>
+                                            <p class="text-gray-600">Live alongside local host families, learn the language, and deepen understanding of local values, traditions, and worldviews.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -317,7 +317,7 @@ function renderCop() {
                                     </ul>
                                 </div>
                             </div>
-                            <p class="text-sm text-gray-500 mt-8 p-4 bg-white rounded-xl border border-pcu-gold/10"><strong>Contact the International Office:</strong> io@petra.ac.id for current pricing, scholarship opportunities, and payment plans.</p>
+                            <p class="text-sm text-gray-500 mt-8 p-4 bg-white rounded-xl border border-pcu-gold/10"><strong>Contact the International Office:</strong> io@meridian.edu for current pricing, scholarship opportunities, and payment plans.</p>
                         </div>
 
                         <!-- CTA Section -->

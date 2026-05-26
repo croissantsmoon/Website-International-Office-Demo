@@ -8,7 +8,7 @@ function renderIntlDegree() {
                 <div class="relative overflow-hidden py-16 md:py-24" style="background: var(--pcu-red-to-yellow-gradient)">
                     <div class="absolute inset-0">
                         <img alt="International Degree Program" class="w-full h-full object-cover opacity-60"
-                             src="Assets/Images/Student%20Exchange/student-exchange-3.jpg"
+                             src="https://picsum.photos/seed/mu-intldeg/1400/600"
                              style="object-position: center 50%;"/>
                     </div>
                     <div class="absolute inset-0" style="background: linear-gradient(to right, rgba(236,0,140,0.8), rgba(255,188,0,0.8))"></div>
@@ -18,7 +18,7 @@ function renderIntlDegree() {
                             <i class="w-4 h-4" data-lucide="arrow-left"></i> Back to Home
                         </a>
                         <h1 class="font-display text-4xl md:text-5xl font-bold text-white mb-4">International Degree Program</h1>
-                        <p class="text-white/80 text-lg max-w-3xl">Pursue your complete undergraduate degree at Petra Christian University with world-class education and global perspectives across 9 specialized departments.</p>
+                        <p class="text-white/80 text-lg max-w-3xl">Pursue your complete undergraduate degree at Meridian University with world-class education and global perspectives across 9 specialized departments.</p>
                     </div>
                 </div>
 
@@ -177,8 +177,8 @@ function renderIntlDegree() {
 
                         <!-- CTA Section -->
                         <div class="bg-pcu-red rounded-3xl p-12 text-white text-center">
-                            <h2 class="font-display text-3xl font-bold mb-3">Begin Your Degree at PCU</h2>
-                            <p class="text-white/80 mb-8 max-w-2xl mx-auto">Join our diverse community of international students and earn your degree from one of Indonesia's premier universities.</p>
+                            <h2 class="font-display text-3xl font-bold mb-3">Begin Your Degree at MU</h2>
+                            <p class="text-white/80 mb-8 max-w-2xl mx-auto">Join our diverse community of international students and earn your degree from one of the world's leading universities.</p>
                             <div class="flex flex-wrap justify-center gap-4">
                                 <a class="inline-flex items-center gap-2 px-7 py-3.5 bg-[#1c446d] text-white font-semibold rounded-full hover:bg-[#163553] transition shadow-lg" href="#">
                                     Apply Now <i class="w-4 h-4" data-lucide="arrow-right"></i>

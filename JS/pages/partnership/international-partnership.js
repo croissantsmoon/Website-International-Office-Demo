@@ -5,13 +5,13 @@ function renderInternationalPartnership() {
 <div style="padding-top: 80px;"><!-- Hero Section -->
 <div class="relative overflow-hidden bg-gradient-to-r from-pcu-purple to-violet-500 py-16 md:py-24">
 <div class="absolute inset-0">
-<img alt="Gedung Petra" class="w-full h-full object-cover opacity-60" src="Assets/Images/Partnership/partnership-1.JPG" style="object-position: center 50%;"/>
+<img alt="MU Campus" class="w-full h-full object-cover opacity-60" src="https://picsum.photos/seed/mu-intlpartner-hero/1400/600" style="object-position: center 50%;"/>
 </div>
 <div class="absolute inset-0 bg-gradient-to-r from-pcu-purple/70 to-violet-500/70"></div>
 <div class="relative max-w-7xl mx-auto px-6 lg:px-8"><a class="inline-flex items-center gap-1 text-white/60 text-sm mb-6 hover:text-white transition" href="#" onclick="navigateTo('home');return false"><i class="w-4 h-4" data-lucide="arrow-left"></i> Back to Home</a>
 <a class="inline-flex items-center gap-1 text-white/70 text-sm mb-4 hover:text-white transition" href="#" onclick="navigateTo('pcu-students');return false"><i class="w-4 h-4" data-lucide="arrow-left"></i> Back to Local Students</a>
 <h1 class="font-display text-4xl md:text-5xl font-bold text-white mb-4">International Partnership</h1>
-<p class="text-white/80 text-lg max-w-3xl">Explore our global network of partnerships spanning 6 continents and 55 countries, connecting PCU with leading institutions worldwide.</p>
+<p class="text-white/80 text-lg max-w-3xl">Explore our global network of partnerships spanning 6 continents and 55 countries, connecting MU with leading institutions worldwide.</p>
 </div>
 </div><!-- Content Section -->
 <div class="bg-transparent">
@@ -72,13 +72,13 @@ function renderInternationalPartnership() {
 <div class="mb-20 reveal">
 <div class="text-center mb-12">
 <h2 class="font-display text-2xl md:text-3xl font-bold text-pcu-blue mb-4">Partnership Support &amp; Agreements</h2>
-<p class="text-gray-600 max-w-2xl mx-auto">Download meeting request forms, explore our agreement support services, and engage with PCU’s international partnership team.</p>
+<p class="text-gray-600 max-w-2xl mx-auto">Download meeting request forms, explore our agreement support services, and engage with MU’s international partnership team.</p>
 </div>
 <div class="grid gap-6 lg:grid-cols-3">
 <div class="rounded-3xl bg-white border border-gray-100 p-8 shadow-sm">
 <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-pcu-blue/10 text-pcu-blue text-xs font-semibold rounded-full uppercase tracking-wide">Agreement Support</span>
 <h3 class="font-display text-2xl text-pcu-blue font-bold mt-6 mb-4">International Agreements</h3>
-<p class="text-gray-600 mb-6">PCU supports MoU, MoA, IA/IR, and strategic collaboration frameworks for university-wide exchange, research projects, and student mobility.</p>
+<p class="text-gray-600 mb-6">MU supports MoU, MoA, IA/IR, and strategic collaboration frameworks for university-wide exchange, research projects, and student mobility.</p>
 <ul class="space-y-3 text-gray-600 text-sm">
 <li>• Partnership agreement drafting</li>
 <li>• Renewal and review coordination</li>
@@ -88,9 +88,9 @@ function renderInternationalPartnership() {
 <div class="rounded-3xl bg-gradient-to-br from-pcu-purple to-violet-500 text-white p-8 shadow-lg">
 <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-white/15 text-white text-xs font-semibold rounded-full uppercase tracking-wide">Meeting Request</span>
 <h3 class="font-display text-2xl text-white font-bold mt-6 mb-4">Request a Partnership Meeting</h3>
-<p class="text-white/80 mb-6">Organize a bilateral meeting with PCU’s partnership team for program planning, campus visits, or virtual consultation.</p>
+<p class="text-white/80 mb-6">Organize a bilateral meeting with MU’s partnership team for program planning, campus visits, or virtual consultation.</p>
 <button class="inline-flex items-center gap-2 px-5 py-3 bg-white text-pcu-purple font-semibold rounded-full shadow-lg hover:bg-white/90 transition" onclick="openMeetingRequestModal()">Download Request Form</button>
-<p class="text-white/75 text-sm mt-5">Or email <a class="underline text-white/90" href="mailto:head-partnership@petra.ac.id">head-partnership@petra.ac.id</a></p>
+<p class="text-white/75 text-sm mt-5">Or email <a class="underline text-white/90" href="mailto:partnership@meridian.edu">partnership@meridian.edu</a></p>
 </div>
 <div class="rounded-3xl bg-white border border-gray-100 p-8 shadow-sm">
 <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-pcu-gold/10 text-pcu-gold text-xs font-semibold rounded-full uppercase tracking-wide">Strategic Initiatives</span>

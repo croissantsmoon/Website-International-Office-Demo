@@ -10,10 +10,10 @@ window._supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY,
 // ---- CONFIG & SDK ----
 const defaultConfig = {
   hero_title: 'Your Gateway to Global Education',
-  hero_subtitle: 'Discover world-class programs, vibrant campus life, and international opportunities at PCU.',
-  stats_heading: 'PCU in Numbers',
-  study_heading: 'Study at PCU',
-  news_heading: 'PCU International News',
+  hero_subtitle: 'Discover world-class programs, vibrant campus life, and international opportunities at MU.',
+  stats_heading: 'MU in Numbers',
+  study_heading: 'Study at MU',
+  news_heading: 'MU International News',
   background_color: '#FFFFFF',
   surface_color: '#E8F0FE',
   text_color: '#0A2F6E',
@@ -382,7 +382,7 @@ const PAGE_ACCENTS = {
   'domestic-partnership':       ['#8d4bb1', 'partnership'],
   'consortium-association':     ['#8d4bb1', 'partnership'],
   'partnership-meet-us':        ['#8d4bb1', 'partnership'],
-  // Life at PCU — green
+  // Life at MU — green
   'how-to-get':                 ['#52ac2d', 'life'],
   'accommodation':              ['#52ac2d', 'life'],
   'preparation-arrival':        ['#52ac2d', 'life'],
@@ -528,209 +528,209 @@ const countryFlags = {
 
 const institutionLogos = {
   'Philippines': {
-    'Bicol University': 'Assets/Images/Logo/Philippines/Bicol University, Phillipines.jpg',
-    'Camarines Sur Polytechnic Colleges': 'Assets/Images/Logo/Philippines/Camarines Sur Polytechnic Colleges, Philippines.png',
-    'Central Bicol State University of Agriculture San Jose': 'Assets/Images/Logo/Philippines/Central Bicol State University of Agriculture San Jose, Philippines.png',
-    'Central Philippine University': 'Assets/Images/Logo/Philippines/Central Philippine University, Philippines.png',
-    'Iloilo Science and Technolgy University': 'Assets/Images/Logo/Philippines/Iloilo Science and Technolgy University, Philippines.png',
-    'Northwest Samar State University': 'Assets/Images/Logo/Philippines/Northwest Samar State University, Philippines.jpg',
-    'Panpacific University': 'Assets/Images/Logo/Philippines/Panpacific University, Philippines.png',
-    'Philippine Christian University': 'Assets/Images/Logo/Philippines/Philippine Christian University, Philippine.png',
-    'Philippine Normal University': 'Assets/Images/Logo/Philippines/Philippine Normal University, Philippines.png',
-    'Samar State University': 'Assets/Images/Logo/Philippines/Samar State University, Philippines.jpg',
-    'Silliman University': 'Assets/Images/Logo/Philippines/Silliman University, Philippines.png',
-    'University of Mindanao': 'Assets/Images/Logo/Philippines/University of Mindanao, Philippines.png',
-    'University of St. La Salle': 'Assets/Images/Logo/Philippines/University of St. La Salle.png',
-    'University of the East': 'Assets/Images/Logo/Philippines/University of the East.png',
+    'Bicol University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Camarines Sur Polytechnic Colleges': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Central Bicol State University of Agriculture San Jose': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Central Philippine University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Iloilo Science and Technolgy University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Northwest Samar State University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Panpacific University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Philippine Christian University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Philippine Normal University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Samar State University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Silliman University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'University of Mindanao': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'University of St. La Salle': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'University of the East': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
   },
   'Malaysia': {
-    'Asia Pacific University of Technology & Innovation (APU)': 'Assets/Images/Logo/Malaysia/Asia Pacific University of Technology & Innovation (APU), Malaysia.png',
-    'Holiday Inn Melaka': 'Assets/Images/Logo/Malaysia/Holiday Inn Melaka.jpg',
-    'INTI International University': 'Assets/Images/Logo/Malaysia/INTI International University, Malaysia.jpg',
-    'Sunway University': 'Assets/Images/Logo/Malaysia/Sunway University SDN BHD.jpg',
-    'Tunku Abdul Rahman University of Management and Technology (TARUMT)': 'Assets/Images/Logo/Malaysia/Tunku Abdul Rahman University of Management and Technology (TARUMT), Malaysia.png',
-    'UCSI University': 'Assets/Images/Logo/Malaysia/UCSI University, Malaysia.jpg',
-    'Universiti Malaysia Perlis (UniMAP)': 'Assets/Images/Logo/Malaysia/Universiti Malaysia Perlis (UniMAP), Malaysia.png',
-    'Universiti Malaysia Sarawak (UNIMAS)': 'Assets/Images/Logo/Malaysia/Universiti Malaysia Sarawak (UNIMAS), Malaysia.png',
-    'Universiti Sains Malaysia (USM)': 'Assets/Images/Logo/Malaysia/Universiti Sains Malaysia (USM), Malaysia.jpg',
-    'Universiti Teknologi MARA (UiTM)': 'Assets/Images/Logo/Malaysia/Universiti Teknologi MARA (UiTM), Malaysia.png',
-    'Universiti Tun Hussein Onn Malaysia (UTHM)': 'Assets/Images/Logo/Malaysia/Universiti Tun Hussein Onn Malaysia (UTHM), Malaysia.png',
-    'Universiti Tunku Abdul Rahman (UTAR)': 'Assets/Images/Logo/Malaysia/Universiti Tunku Abdul Rahman (UTAR), Malaysia.jpg',
+    'Asia Pacific University of Technology & Innovation (APU)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Holiday Inn Melaka': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'INTI International University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Sunway University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Tunku Abdul Rahman University of Management and Technology (TARUMT)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'UCSI University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Universiti Malaysia Perlis (UniMAP)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Universiti Malaysia Sarawak (UNIMAS)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Universiti Sains Malaysia (USM)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Universiti Teknologi MARA (UiTM)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Universiti Tun Hussein Onn Malaysia (UTHM)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Universiti Tunku Abdul Rahman (UTAR)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
   },
   'China': {
-    'Anhui University': "Assets/Images/Logo/China/Anhui University, China.jpg",
-    'Beijing University of Posts and Telecommunication (School of Humanities) (BUPT)': 'Assets/Images/Logo/China/Beijing University of Posts and Telecommunication (School of Humanities) (BUPT), Beijing.png',
-    'Chaoshan Vocational and Technical College': 'Assets/Images/Logo/China/Chaoshan Vocational and Technical College, China.jpg',
-    'Fujian Polytechnic Normal University (FPNU)': 'Assets/Images/Logo/China/Fujian Polytechnic Normal University (FPNU), China.jpg',
-    'Guangdong University of Foreign Studies (GDUFS)': 'Assets/Images/Logo/China/Guangdong University of Foreign Studies (GDUFS), China.png',
-    'Guangdong University of Science and Technology (GDUT)': 'Assets/Images/Logo/China/Guangdong University of Science and Technology (GDUT), China.png',
-    'Guangxi Normal University': 'Assets/Images/Logo/China/Guangxi Normal University, P. R. China.png',
-    'Guangzhou College of Commerce, (GCC)': 'Assets/Images/Logo/China/Guangzhou College of Commerce, (GCC), China.jpg',
-    'Guangzhou Huanan Business College': 'Assets/Images/Logo/China/Guangzhou Huanan Business College, China.jpg',
-    'Guangzhou Nanyang Polytechnic College': 'Assets/Images/Logo/China/Guangzhou Nanyang Polytechnic College, China.jpg',
-    'Hua Qiao University': 'Assets/Images/Logo/China/Hua Qiao University, Quanzhou, P. R. China.jpg',
-    'Hunan City University': 'Assets/Images/Logo/China/Hunan City University, China.png',
-    'Nanjing University of Aeronautics and Astronautics (NUAA)': 'Assets/Images/Logo/China/Nanjing University of Aeronautics and Astronautics (NUAA), China.png',
-    'School of Economics, Fudan University': 'Assets/Images/Logo/China/School of Economics, Fudan University, China.png',
-    'Tianjin Foreign Studies University (TFSU)': 'Assets/Images/Logo/China/Tianjin Foreign Studies University (TFSU), China.jpg',
-    'University of Saint Joseph': 'Assets/Images/Logo/China/University of Saint Joseph, Macau.jpg',
-    'Xi\'an Jiaotong-Liverpool University (XJTLU)': 'Assets/Images/Logo/China/Xi\'an Jiaotong-Liverpool University (XJTLU), China.png',
-    'Yangzhou University': 'Assets/Images/Logo/China/Yangzhou University, China.png',
-    'Zhejiang Yuexiu University of Foreign Languages': 'Assets/Images/Logo/China/Zhejiang Yuexiu University of Foreign Languages, China.jpg'
+    'Anhui University': "https://placehold.co/80x40/e2e8f0/64748b?text=Partner",
+    'Beijing University of Posts and Telecommunication (School of Humanities) (BUPT)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Chaoshan Vocational and Technical College': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Fujian Polytechnic Normal University (FPNU)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Guangdong University of Foreign Studies (GDUFS)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Guangdong University of Science and Technology (GDUT)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Guangxi Normal University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Guangzhou College of Commerce, (GCC)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Guangzhou Huanan Business College': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Guangzhou Nanyang Polytechnic College': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Hua Qiao University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Hunan City University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Nanjing University of Aeronautics and Astronautics (NUAA)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'School of Economics, Fudan University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Tianjin Foreign Studies University (TFSU)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'University of Saint Joseph': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Xi\'an Jiaotong-Liverpool University (XJTLU)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Yangzhou University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Zhejiang Yuexiu University of Foreign Languages': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'South Korea': {
-    'Yonsei University': 'Assets/Images/Logo/South Korea/Yonsei University, Korea.png',
-    'Dankook University': 'Assets/Images/Logo/South Korea/Dankook University (DKU), Korea.png',
-    'Woosong University': 'Assets/Images/Logo/South Korea/Woosong University, Rep. of Korea.png',
-    'Busan University of Foreign Studies': 'Assets/Images/Logo/South Korea/Busan University of Foreign Studies, Korea.jpg',
-    'Hankuk University of Foreign Studies': 'Assets/Images/Logo/South Korea/Hankuk University of Foreign Studies, Korea.png',
-    'Hannam University': 'Assets/Images/Logo/South Korea/Hannam University, Korea.jpg',
-    'Keimyung University': 'Assets/Images/Logo/South Korea/Keimyung University, Korea.jpg',
-    'Soongsil University': 'Assets/Images/Logo/South Korea/Soongsil University, Seoul, Korea.png',
-    'Myongji University': 'Assets/Images/Logo/South Korea/Myongji University, Korea.png',
-    'Solbridge International School of Business': 'Assets/Images/Logo/South Korea/SolBridge International School of Business (Woosong University), Korea.png'
+    'Yonsei University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Dankook University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Woosong University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Busan University of Foreign Studies': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Hankuk University of Foreign Studies': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Hannam University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Keimyung University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Soongsil University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Myongji University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Solbridge International School of Business': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'Japan': {
-    'Asia University': 'Assets/Images/Logo/Japan/Asia University, Japan.png',
-    'Clark Memorial International High School': 'Assets/Images/Logo/Japan/Clark Memorial International High School, Japan.png',
-    'International Christian University (ICU)': 'Assets/Images/Logo/Japan/International Christian University (ICU), Japan.jpg',
-    'Josai International University': 'Assets/Images/Logo/Japan/Josai International University, Japan.jpg',
-    'International Pacific University (IPU)': 'Assets/Images/Logo/Japan/International Pacific University (IPU), Japan.png',
-    'Kaichi International University': 'Assets/Images/Logo/Japan/Kaichi International University, Japan.png',
-    'Kansai Gaidai University': 'Assets/Images/Logo/Japan/Kansai Gaidai University, Japan.jpg',
-    'Kansai University of International Studies': 'Assets/Images/Logo/Japan/Kansai University of International Studies, Japan.png',
-    'Kwansei Gakuin University': 'Assets/Images/Logo/Japan/Kwansei Gakuin University, Japan.png',
-    'Meiji University': 'Assets/Images/Logo/Japan/Meiji University, Japan.png',
-    'Momoyama Gakuin University': 'Assets/Images/Logo/Japan/Momoyama Gakuin University, Japan.png',
-    'Nihon University': 'Assets/Images/Logo/Japan/Nihon University, Japan.jpg',
-    'Shizuoka University': 'Assets/Images/Logo/Japan/Shizuoka University, Japan.jpeg',
-    'Sophia University': 'Assets/Images/Logo/Japan/Sophia University, Japan.png',
-    'University of Niigata Prefecture': 'Assets/Images/Logo/Japan/University of Niigata Perfecture, Japan.jpeg'
+    'Asia University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Clark Memorial International High School': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'International Christian University (ICU)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Josai International University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'International Pacific University (IPU)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Kaichi International University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Kansai Gaidai University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Kansai University of International Studies': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Kwansei Gakuin University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Meiji University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Momoyama Gakuin University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Nihon University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Shizuoka University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Sophia University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'University of Niigata Prefecture': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'Australia': {
-    'Macquarie University': 'Assets/Images/Logo/Australia/Macquarie University, Australia.png',
-    'Monash University': 'Assets/Images/Logo/Australia/Monash University, Australia.png',
-    'Queensland University of Technology': 'Assets/Images/Logo/Australia/Queensland University of Technology (QUT), Australia.jpg',
-    'University of Tasmania': 'Assets/Images/Logo/Australia/University of Tasmania, Australia.png'
+    'Macquarie University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Monash University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Queensland University of Technology': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'University of Tasmania': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'Bangladesh': {
-    'Daffodil International University': 'Assets/Images/Logo/Bangladesh/Daffodil International University, Bangladesh.png',
-    'Southern University Bangladesh': 'Assets/Images/Logo/Bangladesh/Southern University Bangladesh.jpg'
+    'Daffodil International University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Southern University Bangladesh': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'Cambodia': {
-    'Cambodian University for Specialties (CUS)': 'Assets/Images/Logo/Cambodia/Cambodian University for Specialties (CUS), Cambodia.png',
-    'National University of Management (NUM)': 'Assets/Images/Logo/Cambodia/National University of Management (NUM), Cambodia.jpg',
-    'Royal University of Phnom Penh (RUPP)': 'Assets/Images/Logo/Cambodia/Royal University of Phnom Penh (RUPP), Cambodia.png',
-    'University of Puthisastra': 'Assets/Images/Logo/Cambodia/University of Puthisastra, Cambodia.jpg'
+    'Cambodian University for Specialties (CUS)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'National University of Management (NUM)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Royal University of Phnom Penh (RUPP)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'University of Puthisastra': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'Canada': {
-    'University of the Fraser Valley (UFV)': 'Assets/Images/Logo/Canada/University of the Fraser Valley (UFV), Canada.png'
+    'University of the Fraser Valley (UFV)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'France': {
-    'Rennes School of Business': 'Assets/Images/Logo/France/Rennes School of Business, France.jpg'
+    'Rennes School of Business': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'Germany': {
-    'Hochschule Fresenius University of Applied Sciences': 'Assets/Images/Logo/Germany/Hochschule Fresenius University of Applied Sciences, Germany.png',
-    'Hochschule Mainz - University of Applied Sciences': 'Assets/Images/Logo/Germany/Hochschule Mainz - University of Applied Sciences, Germany.png',
-    'Osnabrück University of Applied Sciences': 'Assets/Images/Logo/Germany/Osnabru╠êck University of Applied Sciences, Germany (Faculty of Business Management and Social Sciences).png',
-    'Univeristy of Applied Sciences Darmstadt': 'Assets/Images/Logo/Germany/Univeristy of Applied Sciences Darmstadt (Hochschule Darmstadt) (h_da), Germany.png'
+    'Hochschule Fresenius University of Applied Sciences': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Hochschule Mainz - University of Applied Sciences': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Osnabrück University of Applied Sciences': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Univeristy of Applied Sciences Darmstadt': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'Hong Kong': {
-    'Centennial College': 'Assets/Images/Logo/Hong Kong/Centennial College, Hong Kong.jpg',
-    'City University of Hong Kong (CityU)': 'Assets/Images/Logo/Hong Kong/City University of Hong Kong (CityU), Hong Kong.jpg',
-    'Lingnan University': 'Assets/Images/Logo/Hong Kong/Lingnan University, Hongkong.png',
-    'The Education University of Hongkong': 'Assets/Images/Logo/Hong Kong/The Education University of Hongkong, Hongkong.png'
+    'Centennial College': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'City University of Hong Kong (CityU)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Lingnan University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'The Education University of Hongkong': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'Hungary': {
-    'Budapest University of Technology and Economics': 'Assets/Images/Logo/Hungary/Budapest University of Technology and Economics, Hungary.jpg'
+    'Budapest University of Technology and Economics': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'India': {
-    'Assam Down Town University': 'Assets/Images/Logo/India/Assam Down Town University, India.png',
-    'Lady Doak College': 'Assets/Images/Logo/India/Lady Doak College, India.jpg',
-    'Vellore Institute of Technology (VIT)': 'Assets/Images/Logo/India/Vellore Institute of Technology (VIT), India.png',
-    'VIT Bhopal University': 'Assets/Images/Logo/India/VIT Bhopal University, India.png',
-    'VIT-AP University': 'Assets/Images/Logo/India/VIT-AP University, India.png'
+    'Assam Down Town University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Lady Doak College': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Vellore Institute of Technology (VIT)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'VIT Bhopal University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'VIT-AP University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'Ireland': {
-    'Athlone Institute of Technology': 'Assets/Images/Logo/Ireland/Athlone Institute of Technology, Irlandia.jpg'
+    'Athlone Institute of Technology': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'Lithuania': {
-    'Mykolas Romeris University': 'Assets/Images/Logo/Lithuania/Mykolas Romeris University, Lithuania.png'
+    'Mykolas Romeris University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'Macau': {
-    'Macau Millennium College (MMC)': 'Assets/Images/Logo/Macau/Macau Millennium College (MMC), Macau.png',
-    'Macau University of Science and Technology': 'Assets/Images/Logo/Macau/Macau University of Science and Technology, Macau.png'
+    'Macau Millennium College (MMC)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Macau University of Science and Technology': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'Mongolia': {
-    'German-Mongolian Institute for Resources and Technology (GMIT)': 'Assets/Images/Logo/Mongolia/German-Mongolian Institute for Resources and Technology (GMIT), Mongolia.png',
-    'Huree University of Information and Communication Technology': 'Assets/Images/Logo/Mongolia/Huree University of Information and Communication Technology, Mongolia.jpg'
+    'German-Mongolian Institute for Resources and Technology (GMIT)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Huree University of Information and Communication Technology': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'Netherlands': {
-    'Fontys University of Applied Sciences': 'Assets/Images/Logo/Netherlands/Fontys University of Applied Sciences, The Netherlands.png',
-    'Saxion University of Applied Sciences': 'Assets/Images/Logo/Netherlands/Saxion University of Applied Sciences, the Netherlands.png'
+    'Fontys University of Applied Sciences': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Saxion University of Applied Sciences': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'New Zealand': {
-    'Massey University': 'Assets/Images/Logo/New Zealand/Massey University, New Zealand.png'
+    'Massey University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'Poland': {
-    'AGH University of Science and Technology': 'Assets/Images/Logo/Poland/AGH University of Science and Technology, Poland.png'
+    'AGH University of Science and Technology': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'Portugal': {
-    'Lusofona University of Humanitites and Technologies': 'Assets/Images/Logo/Portugal/Lusofona University of Humanitites and Technologies (Universidade Lusofona de Humanidades e Tecnologias), Portugal.png'
+    'Lusofona University of Humanitites and Technologies': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'Romania': {
-    'Stefan Cel Mare University of Suceava': 'Assets/Images/Logo/Romania/Stefan Cel Mare University of Suceava, Romania.png'
+    'Stefan Cel Mare University of Suceava': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'Singapore': {
-    'James Cook University (JCU)': 'Assets/Images/Logo/Singapore/James Cook University (JCU), Singapore.png',
-    'National University of Singapore (NUS)': 'Assets/Images/Logo/Singapore/National University of Singapore (NUS),  Singapore.jpg',
-    'Ngee Ann Polytechnic (NP)': 'Assets/Images/Logo/Singapore/Ngee Ann Polytechnic (NP), Singapore.png',
-    'Singapore University of Technology and Design (SUTD)': 'Assets/Images/Logo/Singapore/Singapore University of Technology and Design (SUTD), Singapore.jpg'
+    'James Cook University (JCU)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'National University of Singapore (NUS)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Ngee Ann Polytechnic (NP)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Singapore University of Technology and Design (SUTD)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'Switzerland': {
-    'International Hotel Management Institute': 'Assets/Images/Logo/Switzerland/International Hotel Management Institute (IMI Partners AG Switzerland), Switzerland.jpg'
+    'International Hotel Management Institute': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'Taiwan': {
-    'Chang Jung Christian University': 'Assets/Images/Logo/Taiwan/Chang Jung Christian University, Taiwan.png',
-    'Chung Yuan Christian University': 'Assets/Images/Logo/Taiwan/Chung Yuan Christian University, Taiwan.png',
-    'Fu Jen Catholic University': 'Assets/Images/Logo/Taiwan/Fu Jen Catholic University, Taiwan.png',
-    'I-Shou University': 'Assets/Images/Logo/Taiwan/I-Shou University, Taiwan.jpg',
-    'Kun Shan University': 'Assets/Images/Logo/Taiwan/Kun Shan University, Taiwan.png',
-    'Ming Chuan University': 'Assets/Images/Logo/Taiwan/Ming Chuan University, Taiwan.png',
-    'National Central University': 'Assets/Images/Logo/Taiwan/National Central University, Taiwan.png',
-    'National Chi Nan University': 'Assets/Images/Logo/Taiwan/National Chi Nan University, Taiwan.jpg',
-    'National Ilan University': 'Assets/Images/Logo/Taiwan/National Ilan University, Taiwan.png',
-    'National Kaohsiung University of Science and Technology (NKUST)': 'Assets/Images/Logo/Taiwan/National Kaohsiung University of Science and Technology (NKUST), Taiwan.jpg',
-    'National Sun Yat Sen University (NSYSU)': 'Assets/Images/Logo/Taiwan/National Sun Yat Sen University (NSYSU), Taiwan.png',
-    'National Taiwan University of Science and Technology (NTUST)': 'Assets/Images/Logo/Taiwan/National Taiwan University of Science and Technology (NTUST), Taiwan.png',
-    'Tunghai University': 'Assets/Images/Logo/Taiwan/Tunghai University, Taiwan.jpg',
-    'Wenzao Ursuline University of Languages': 'Assets/Images/Logo/Taiwan/Wenzao Ursuline University of Languages, Taiwan.jpg',
-    'Yuan Ze University Taoyuan': 'Assets/Images/Logo/Taiwan/Yuan Ze University Taoyuan, Taiwan.png'
+    'Chang Jung Christian University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Chung Yuan Christian University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Fu Jen Catholic University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'I-Shou University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Kun Shan University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Ming Chuan University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'National Central University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'National Chi Nan University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'National Ilan University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'National Kaohsiung University of Science and Technology (NKUST)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'National Sun Yat Sen University (NSYSU)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'National Taiwan University of Science and Technology (NTUST)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Tunghai University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Wenzao Ursuline University of Languages': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Yuan Ze University Taoyuan': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'Thailand': {
-    'Bangkok University': 'Assets/Images/Logo/Thailand/Bangkok University, Thailand.jpg',
-    'Naresuan University': 'Assets/Images/Logo/Thailand/Naresuan University, Thailand.jpg',
-    'Siam University': 'Assets/Images/Logo/Thailand/Siam University, Thailand.png',
-    'Silpakorn University': 'Assets/Images/Logo/Thailand/Silpakorn University, Thailand.png',
-    'Srinakharinwirot University (SWU)': 'Assets/Images/Logo/Thailand/Srinakharinwirot University (SWU), Thailand.png',
-    'Thai-Nichi Institute of Technology': 'Assets/Images/Logo/Thailand/Thai-Nichi Institute of Technology, Thailand.png'
+    'Bangkok University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Naresuan University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Siam University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Silpakorn University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Srinakharinwirot University (SWU)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Thai-Nichi Institute of Technology': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'Timor Leste': {
-    "Universidade Nacional Timor Lorosa'e (UNTL)": "Assets/Images/Logo/Timor Leste/Universidade Nacional Timor Lorosa'e (UNTL), Timor-Leste.png"
+    "Universidade Nacional Timor Lorosa'e (UNTL)": "https://placehold.co/80x40/e2e8f0/64748b?text=Partner"
   },
   'United Arab Emirates': {
-    'The Emirates Academy of Hospitality Management': 'Assets/Images/Logo/United Arab Emirates/The Emirates Academy of Hospitality Management, United Arab Emirates.jpg'
+    'The Emirates Academy of Hospitality Management': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'United Kingdom': {
-    'Coventry University': 'Assets/Images/Logo/United Kingdom/Coventry University, UK.png',
-    'Loughborough University': 'Assets/Images/Logo/United Kingdom/Loughborough University, UK.png',
-    'University of Chichester': 'Assets/Images/Logo/United Kingdom/University of Chichester, UK.png'
+    'Coventry University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Loughborough University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'University of Chichester': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   },
   'United States of America': {
-    'California Baptist University': 'Assets/Images/Logo/United States of America/California Baptist University, USA.png',
-    'Dallas Baptist University': 'Assets/Images/Logo/United States of America/Dallas Baptist University, USA.jpg',
-    'Iowa State University of Science and Technology (ISU)': 'Assets/Images/Logo/United States of America/Iowa State University of Science and Technology (ISU), USA.png',
-    'Valparaiso University (Valpo)': 'Assets/Images/Logo/United States of America/Valparaiso University (Valpo), USA.jpg'
+    'California Baptist University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Dallas Baptist University': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Iowa State University of Science and Technology (ISU)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner',
+    'Valparaiso University (Valpo)': 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner'
   }
 };
 
@@ -1488,7 +1488,7 @@ function loadPartnersLogos(suffix = '') {
   if (!container || container.children.length > 0) return;
   const makeItem = (file) => {
     const name = file.replace(/^[^/]+\//, '').replace(/\.[^.]+$/, '');
-    const src = 'Assets/Images/Logo/' + file.split('/').map(encodeURIComponent).join('/');
+    const src = 'https://placehold.co/80x40/e2e8f0/64748b?text=Partner';
     return '<div class="flex flex-col items-center gap-2 flex-shrink-0" style="width:80px;">' +
       '<div class="w-16 h-16 rounded-full bg-white border-2 border-gray-100 shadow-md flex items-center justify-center overflow-hidden hover:shadow-lg hover:border-pcu-blue/30 transition" style="flex-shrink:0;">' +
       '<img src="' + src + '" alt="' + name.replace(/"/g, '&quot;') + '" class="max-h-12 max-w-full object-contain p-1" loading="lazy">' +
@@ -1723,7 +1723,7 @@ function renderNews(container, items) {
           <span class="uppercase tracking-[0.2em] text-pcu-navy font-semibold">${n.tag.replace('#', '')}</span>
         </div>
         <h3 class="font-semibold text-xl text-pcu-blue mb-3 leading-snug">${n.title}</h3>
-        <p class="text-gray-600 text-sm mb-5">${n.excerpt || 'Read more about this latest update from PCU Global.'}</p>
+        <p class="text-gray-600 text-sm mb-5">${n.excerpt || 'Read more about this latest update from MU Global.'}</p>
         <span class="inline-flex items-center gap-2 text-pcu-sky font-semibold">Read more <i data-lucide="arrow-right" class="w-3 h-3"></i></span>
       </div>
     </article>`;
@@ -2003,7 +2003,7 @@ function loadDomesticLogos() {
   if (!container || container.children.length > 0) return;
   const makeItem = (file) => {
     const name = file.replace(/\.[^.]+$/, '');
-    const src = 'Assets/Images/Industries/' + encodeURIComponent(file);
+    const src = 'https://placehold.co/64x64/e2e8f0/64748b?text=P';
     return '<div class="flex flex-col items-center gap-2 flex-shrink-0" style="width:80px;">' +
       '<div class="w-16 h-16 rounded-full bg-white border-2 border-gray-100 shadow-md flex items-center justify-center overflow-hidden hover:shadow-lg hover:border-pcu-blue/30 transition" style="flex-shrink:0;">' +
       '<img src="' + src + '" alt="' + name.replace(/"/g, '&quot;') + '" class="max-h-12 max-w-full object-contain p-1" loading="lazy">' +
@@ -2361,7 +2361,7 @@ async function renderInternshipOpportunities() {
           </div>
         </div>
         <div class="sm:shrink-0">
-          <a href="mailto:io@petra.ac.id" class="inline-flex items-center gap-2 px-5 py-2.5 bg-teal-600 text-white text-sm font-semibold rounded-full hover:bg-teal-700 transition whitespace-nowrap">
+          <a href="mailto:io@meridian.edu" class="inline-flex items-center gap-2 px-5 py-2.5 bg-teal-600 text-white text-sm font-semibold rounded-full hover:bg-teal-700 transition whitespace-nowrap">
             Apply Now <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
           </a>
         </div>
@@ -2597,7 +2597,7 @@ document.getElementById('meetingRequestForm').addEventListener('submit', async f
     form.reset();
   } catch (err) {
     console.error('Submission failed:', err);
-    alert('Could not submit the form. Please try again or email us directly at head-partnership@petra.ac.id');
+    alert('Could not submit the form. Please try again or email us directly at partnership@meridian.edu');
   } finally {
     submitBtn.disabled = false;
     submitBtn.textContent = originalText;
