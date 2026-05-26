@@ -1,4 +1,6 @@
-# PCU Global — Petra Christian University International Office Website
+# PCU Global — Petra Christian University International Office Website (Demo)
+
+**⚠️ This is a demo site.**
 
 A single-page application (SPA) for the PCU International Office, showcasing inbound and outbound academic programs, campus facilities, news, and contact information for prospective international students and partners.
 
